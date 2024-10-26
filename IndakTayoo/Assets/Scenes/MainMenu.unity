@@ -932,7 +932,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2136799935}
         m_TargetAssemblyTypeName: SceneLoaderMainMenu, Assembly-CSharp
-        m_MethodName: MoveToJotabal_Dance
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1158,7 +1158,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2136799935}
         m_TargetAssemblyTypeName: SceneLoaderMainMenu, Assembly-CSharp
-        m_MethodName: MoveToJotabal_Dance
+        m_MethodName: MoveToHow_to_Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1389,7 +1389,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2136799935}
         m_TargetAssemblyTypeName: SceneLoaderMainMenu, Assembly-CSharp
-        m_MethodName: MoveToJotabal_Dance
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2270,7 +2270,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2136799935}
         m_TargetAssemblyTypeName: SceneLoaderMainMenu, Assembly-CSharp
-        m_MethodName: MoveToJotabal_Dance
+        m_MethodName: MoveToPolkabal_Dance
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
