@@ -45,23 +45,13 @@ public class SceneLoaderMainMenu : MonoBehaviour
 
     IEnumerator LoadScene(string sceneName)
     {
-
-   
-
+        // Load the scene asynchronously
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
-
-        asyncLoad.allowSceneActivation = false; //scene will not load while this value is false
-
-  
-        // Allow the scene to be activated
-        asyncLoad.allowSceneActivation = true;
 
         // Wait for the scene to finish loading
         while (!asyncLoad.isDone)
         {
             yield return null;
         }
-
-   
     }
 }
