@@ -11,7 +11,7 @@ public class LeftHand : MonoBehaviour
     {
         if (other.gameObject == targetObject)
         {
-            Debug.Log("NICE");
+            Debug.Log("Left");
         }
     }
 }
