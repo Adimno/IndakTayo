@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class RightHand : MonoBehaviour
 {
-    public GameObject targetObject; // Assign your "LeftHand" GameObject here in the Inspector
-
+    public GameObject targetObject; 
+    public StepChecker stepChecker;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == targetObject)
         {
-            Debug.Log("Right");
+            Debug.Log("Rights");
+            stepChecker.SetIndexTrue(2);
         }
     }
 }

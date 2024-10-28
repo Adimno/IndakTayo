@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class Head : MonoBehaviour
 {
-    public GameObject targetObject; // Assign your "LeftHand" GameObject here in the Inspector
-
+    public GameObject targetObject; 
+    public StepChecker stepChecker;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == targetObject)
         {
-            Debug.Log("Heads");
+            Debug.Log("Head");
+            stepChecker.SetIndexTrue(1);
         }
     }
 }
