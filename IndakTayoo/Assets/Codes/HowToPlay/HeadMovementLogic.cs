@@ -5,8 +5,8 @@ using UnityEngine;
 public class HeadMovementLogic : MonoBehaviour
 {
     public GameObject cameraHead;
-    public HeadMovementIcon LU;
-    public HeadMovementIcon LD;
+    //public HeadMovementIcon LU;
+    //public HeadMovementIcon LD;
     public HeadMovementIcon LL;
     public HeadMovementIcon LR;
     public HeadMovementIcon TL;
@@ -25,26 +25,26 @@ public class HeadMovementLogic : MonoBehaviour
         float xRotation = cameraHead.transform.rotation.eulerAngles.x;
         float yRotation = cameraHead.transform.rotation.eulerAngles.y;
         float zRotation = cameraHead.transform.rotation.eulerAngles.z;
-        Debug.Log("x: " + xRotation + " y: " + yRotation + " z: " + zRotation);
+        Debug.Log(" y: " + yRotation + " z: " + zRotation);
 
-        //PITCH
-        // LOOK UP
-        if (xRotation >= 300f && xRotation <= 320f)
-        {
-            LU.SetCheckIconVisible(true);
-            LU.SetUncheckIconVisible(false);
-        }
-        //PITCH
-        // LOOK DOWN
-        else if (xRotation >= 60f && xRotation <= 75f)
-        {
-            LD.SetCheckIconVisible(true);
-            LD.SetUncheckIconVisible(false);
-        }
+        ////PITCH
+        //// LOOK UP
+        //if (xRotation >= 300f && xRotation <= 320f)
+        //{
+        //    LU.SetCheckIconVisible(true);
+        //    LU.SetUncheckIconVisible(false);
+        //}
+        ////PITCH
+        //// LOOK DOWN
+        //else if (xRotation >= 60f && xRotation <= 75f)
+        //{
+        //    LD.SetCheckIconVisible(true);
+        //    LD.SetUncheckIconVisible(false);
+        //}
 
         //YAW
         //LOOK LEFT
-        else if (yRotation >= 100f && yRotation <= 110f)
+        if (yRotation >= 100f && yRotation <= 110f)
         {
             LL.SetCheckIconVisible(true);
             LL.SetUncheckIconVisible(false);
