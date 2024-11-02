@@ -9,6 +9,10 @@ public class HTPViewMovementControl : MonoBehaviour
     public BoxCollider ColliderDestroy;
     public TextMeshProUGUI textComponent;
 
+    private void Start()
+    {
+        MovementCanvas.SetActive(false);
+    }
     private void Update()
     {
         if (MovementCanvas.gameObject.activeSelf)
