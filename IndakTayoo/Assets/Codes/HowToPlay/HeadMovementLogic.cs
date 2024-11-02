@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class HeadMovementLogic : MonoBehaviour
@@ -7,10 +8,12 @@ public class HeadMovementLogic : MonoBehaviour
     public GameObject cameraHead;
     //public HeadMovementIcon LU;
     //public HeadMovementIcon LD;
-    public HeadMovementIcon LL;
-    public HeadMovementIcon LR;
-    public HeadMovementIcon TL;
-    public HeadMovementIcon TR;
+    //public HeadMovementIcon LL;
+    //public HeadMovementIcon LR;
+    //public HeadMovementIcon TL;
+    //public HeadMovementIcon TR;
+    public TextMeshProUGUI textComponent;
+    public TextMeshProUGUI textComponent2;
 
     // Start is called before the first frame update
     void Start()
@@ -43,33 +46,38 @@ public class HeadMovementLogic : MonoBehaviour
         //}
 
         //YAW
-        //LOOK LEFT
-        if (yRotation >= 100f && yRotation <= 110f)
-        {
-            LL.SetCheckIconVisible(true);
-            LL.SetUncheckIconVisible(false);
-        }
-        //YAW
-        //LOOK RIGHT
-        else if (yRotation >= 250f && yRotation <= 260f)
-        {
-            LR.SetCheckIconVisible(true);
-            LR.SetUncheckIconVisible(false);
-        }
+        ////LOOK LEFT
+        //if (yRotation >= 100f && yRotation <= 110f)
+        //{
+        //    LL.SetCheckIconVisible(true);
+        //    LL.SetUncheckIconVisible(false);
+        //}
+        ////YAW
+        ////LOOK RIGHT
+        //else if (yRotation >= 250f && yRotation <= 260f)
+        //{
+        //    LR.SetCheckIconVisible(true);
+        //    LR.SetUncheckIconVisible(false);
+        //}
 
         //ROLL
         //TILT TO THE LEFT
-        else if (zRotation >= 70f && zRotation <= 80f)
+         if (zRotation >= 70f && zRotation <= 80f)
         {
-            TL.SetCheckIconVisible(true);
-            TL.SetUncheckIconVisible(false);
+            if (textComponent != null)
+            {
+                textComponent.color = Color.green;
+            }
         }
         //ROLL
         //TILT TO THE RIGHT
         else if (zRotation >= 270f && zRotation <= 300f)
         {
-            TR.SetCheckIconVisible(true);
-            TR.SetUncheckIconVisible(false);
+            if (textComponent2 != null)
+            {
+                textComponent2.color = Color.green;
+            }
+
         }
     }
 }
