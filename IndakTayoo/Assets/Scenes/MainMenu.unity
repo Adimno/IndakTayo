@@ -4211,7 +4211,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2136799935}
         m_TargetAssemblyTypeName: SceneLoaderMainMenu, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_MethodName: MoveToAbout
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

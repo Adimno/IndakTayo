@@ -36,6 +36,11 @@ public class SceneLoaderMainMenu : MonoBehaviour
         StartCoroutine(LoadScene("How_to_Play"));
     }
 
+    public void MoveToAbout()
+    {
+        StartCoroutine(LoadScene("About"));
+    }
+
 
     public void QuitGame()
     {
