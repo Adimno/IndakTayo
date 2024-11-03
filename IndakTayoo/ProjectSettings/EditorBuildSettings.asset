@@ -15,8 +15,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Polkabal_Dance.unity
     guid: 1ae350986a30a5741a5ff805ca35bc82
   - enabled: 1
-    path: Assets/Scenes/How_to_Play.unity
+    path: Assets/Scenes/How_To_Play.unity
     guid: 500ddcb8a1be8f540832859fc2f96eda
+  - enabled: 1
+    path: Assets/Scenes/About.unity
+    guid: 93c617066d36f81468fc5fe6b8a6995f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 379fd15a8ec7cbf4c935f6b2e921c3dc, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: deb69f659ae95a342aaf7a8b1716f378, type: 2}
