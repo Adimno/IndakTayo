@@ -11,6 +11,7 @@ public class HandColliderLiftHTP : MonoBehaviour
     public TextMeshProUGUI textComponent2;
     public BoxCollider Destroy;
 
+
     // Track whether each hand has triggered
     private bool isHandLeftTriggered = false;
     private bool isHandRightTriggered = false;
@@ -34,6 +35,7 @@ public class HandColliderLiftHTP : MonoBehaviour
         // Check if both hands have triggered, then destroy the collider
         if (isHandLeftTriggered && isHandRightTriggered)
         {
+         
             Destroy(Destroy);
         }
     }
