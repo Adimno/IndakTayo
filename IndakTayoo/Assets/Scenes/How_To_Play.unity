@@ -1295,7 +1295,7 @@ GameObject:
   - component: {fileID: 424833945}
   - component: {fileID: 424833944}
   - component: {fileID: 424833943}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: TiltHeadLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2494,7 +2494,7 @@ GameObject:
   - component: {fileID: 859375100}
   - component: {fileID: 859375099}
   - component: {fileID: 859375098}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: TiltHeadRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3183,7 +3183,7 @@ GameObject:
   - component: {fileID: 1043831664}
   - component: {fileID: 1043831663}
   - component: {fileID: 1043831662}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Checklist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3198,7 +3198,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043831660}
   m_LocalRotation: {x: -0.121083766, y: 0.0027987135, z: 0.0015472963, w: -0.99263716}
-  m_LocalPosition: {x: 0, y: 0, z: 0.031551506}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0175}
   m_LocalScale: {x: 0.0011181723, y: 0.001043486, z: 0.0071083633}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3214,7 +3214,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 13.909, y: -91.633, z: -0.221}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.05611849, y: 0.18950033}
+  m_AnchoredPosition: {x: 0.0558, y: 0.18950033}
   m_SizeDelta: {x: 189.9766, y: 127.0925}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1043831662
@@ -3267,7 +3267,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1137274883}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -3554,7 +3554,7 @@ GameObject:
   - component: {fileID: 1130461550}
   - component: {fileID: 1130461549}
   - component: {fileID: 1130461548}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: LiftRightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4032,7 +4032,7 @@ GameObject:
   - component: {fileID: 1181598286}
   - component: {fileID: 1181598285}
   - component: {fileID: 1181598284}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: LiftLeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4681,7 +4681,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  pointer: {fileID: 0}
+  pointer: {fileID: 2508061}
   sortOrder: 0
 --- !u!114 &1306532670
 MonoBehaviour:
@@ -4716,7 +4716,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1137274883}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -5979,7 +5979,7 @@ GameObject:
   - component: {fileID: 1906393409}
   - component: {fileID: 1906393411}
   - component: {fileID: 1906393410}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Guide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6369,7 +6369,7 @@ GameObject:
   - component: {fileID: 2040577708}
   - component: {fileID: 2040577707}
   - component: {fileID: 2040577709}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: MoveToDanceArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
