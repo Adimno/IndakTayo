@@ -4,30 +4,33 @@ using UnityEngine;
 
 public class MMCanvasMoverButtons : MonoBehaviour
 {
-     public GameObject[] objectsToMove;
+    public GameObject[] objectsToMove;
     public int currentIndex = 0;
+    private int previousIndex = 0; // Track the previous index
     public GameObject incrementButton;
     public GameObject decrementButton;
-  
 
     // Start is called before the first frame update
     void Start()
     {
-        MoveObjects(); // Move objects to initial state
-
+        // Initialize by enabling the first object
+        if (objectsToMove.Length > 0)
+        {
+            objectsToMove[0].SetActive(true);
+        }
     }
 
     // Method to move objects according to the current index
     void MoveObjects()
     {
-        // Disable all objects
-        foreach (GameObject obj in objectsToMove)
-        {
-            obj.SetActive(false);
-        }
+        // Disable only the previous object
+        objectsToMove[previousIndex].SetActive(false);
 
-        // Enable the object at currentIndex
+        // Enable the current object
         objectsToMove[currentIndex].SetActive(true);
+
+        // Update previous index
+        previousIndex = currentIndex;
     }
 
     // Method to increment the index and move objects to the right
@@ -35,7 +38,6 @@ public class MMCanvasMoverButtons : MonoBehaviour
     {
         currentIndex = (currentIndex + 1) % objectsToMove.Length;
         MoveObjects();
-
     }
 
     // Method to decrement the index and move objects to the left
@@ -43,6 +45,5 @@ public class MMCanvasMoverButtons : MonoBehaviour
     {
         currentIndex = (currentIndex - 1 + objectsToMove.Length) % objectsToMove.Length;
         MoveObjects();
-    
     }
 }
