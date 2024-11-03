@@ -36,7 +36,7 @@ public class StepChecker : MonoBehaviour
             checker.SetCheckIconVisible(true);
             checker.SetUncheckIconVisible(false);
             points.IncrementPoints(10);
-            percent.IncrementTaskPercentage(33);
+            percent.IncrementTaskPercentage(1);
 
             hasTriggered = true; // Set the flag to true to prevent future triggers
         }
