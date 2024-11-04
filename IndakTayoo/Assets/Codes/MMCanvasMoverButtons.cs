@@ -13,13 +13,12 @@ public class MMCanvasMoverButtons : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // Initialize by enabling the first object
-        if (objectsToMove.Length > 0)
+        // Initialize by enabling the first object and disabling the others
+        for (int i = 0; i < objectsToMove.Length; i++)
         {
-            objectsToMove[0].SetActive(true);
+            objectsToMove[i].SetActive(i == 0); // Enable only the first object
         }
     }
-
     // Method to move objects according to the current index
     void MoveObjects()
     {
@@ -47,3 +46,4 @@ public class MMCanvasMoverButtons : MonoBehaviour
         MoveObjects();
     }
 }
+    
