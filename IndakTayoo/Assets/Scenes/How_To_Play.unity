@@ -850,7 +850,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &247322352
 Transform:
   m_ObjectHideFlags: 0
@@ -949,9 +949,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19fbf46266a4f7841965f52b5223f333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementCanvas: {fileID: 0}
-  ColliderDestroy: {fileID: 247322353}
-  textComponent: {fileID: 0}
+  MovementCanvas:
+  - {fileID: 1231583163}
+  - {fileID: 608348862}
+  textComponent: {fileID: 976996010}
 --- !u!1 &299023066
 GameObject:
   m_ObjectHideFlags: 0
@@ -4652,8 +4653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19fbf46266a4f7841965f52b5223f333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementCanvas: {fileID: 1231583163}
-  ColliderDestroy: {fileID: 247322353}
+  MovementCanvas: []
   textComponent: {fileID: 976996010}
 --- !u!212 &1231583166
 SpriteRenderer:
@@ -4969,7 +4969,6 @@ MonoBehaviour:
   HandRight: {fileID: 552118610}
   textComponent: {fileID: 184863397}
   textComponent2: {fileID: 454378346}
-  Destroy: {fileID: 759751057}
 --- !u!65 &1334345785
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5900,7 +5899,7 @@ MonoBehaviour:
   - {fileID: 871582479}
   - {fileID: 454378344}
   audioSource: {fileID: 983725838}
-  Destroy: {fileID: 759751057}
+  DestroyCollider: {fileID: 0}
 --- !u!1 &1738570828
 GameObject:
   m_ObjectHideFlags: 0

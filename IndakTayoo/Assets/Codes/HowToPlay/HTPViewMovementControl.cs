@@ -1,41 +1,58 @@
 using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
 public class HTPViewMovementControl : MonoBehaviour
 {
-    public GameObject MovementCanvas;
-    public BoxCollider ColliderDestroy;
+    public GameObject[] MovementCanvas;
     public TextMeshProUGUI textComponent;
+
+    private bool[] hasBeenSeen; // Tracks if each canvas object has been seen
 
     private void Start()
     {
-        MovementCanvas.SetActive(false);
+        // Initialize the hasBeenSeen array to match the number of objects in MovementCanvas
+        hasBeenSeen = new bool[MovementCanvas.Length];
     }
+
     private void Update()
     {
-        if (MovementCanvas.gameObject.activeSelf)
+        // Loop through each canvas and check if it's active
+        for (int i = 0; i < MovementCanvas.Length; i++)
         {
-            // If canvas becomes active and objects are not already enabled, turn on all objects
-            MovementCanvasHTP();
+            if (MovementCanvas[i].activeSelf && !hasBeenSeen[i])
+            {
+                // Mark the object as seen
+                hasBeenSeen[i] = true;
+
+                // Check if all objects have been seen
+                if (AllObjectsSeen())
+                {
+                    MovementCanvasHTP();
+                }
+            }
         }
+    }
+
+    private bool AllObjectsSeen()
+    {
+        // Check if all objects have been set to true in hasBeenSeen
+        foreach (bool seen in hasBeenSeen)
+        {
+            if (!seen)
+            {
+                return false;
+            }
+        }
+        return true;
     }
 
     public void MovementCanvasHTP()
     {
-        if (MovementCanvas != null)
+        // Change text color to green if textComponent is not null
+        if (textComponent != null)
         {
-            // Check if MovementCanvas is active before destroying the collider
-            if (MovementCanvas.activeSelf)
-            {
-                Destroy(ColliderDestroy);
-                if (textComponent != null)
-                {
-                    textComponent.color = Color.green;
-                }
-            }
-         
+            textComponent.color = Color.green;
         }
     }
 }
