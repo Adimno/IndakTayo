@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class StepChecker : MonoBehaviour
 {
@@ -8,6 +9,9 @@ public class StepChecker : MonoBehaviour
     public CheckUncheck checker;
     public TotalPoints points;
     public TaskPercentage percent;
+    public AudioSource correct;
+    public AudioSource wrong;
+    public GameObject wrongDetector;
 
     private bool hasTriggered = false; // Flag to ensure actions run only once
 
@@ -37,9 +41,24 @@ public class StepChecker : MonoBehaviour
             checker.SetUncheckIconVisible(false);
             points.IncrementPoints(10);
             percent.IncrementTaskPercentage(1);
+            correct.Play();
 
             hasTriggered = true; // Set the flag to true to prevent future triggers
+        } 
+
+
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject == wrongDetector)
+        {
+            if (Array.Exists(boolArray, element => element == false))
+            {
+                wrong.Play();
+            }
         }
+
     }
 
     public void SetIndexTrue(int index)

@@ -528,6 +528,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &6877201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -751,6 +754,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &11135331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1659,6 +1665,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &35760429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2177,6 +2186,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &49989227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2583,6 +2595,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &65371699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2953,6 +2968,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &74569560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4799,6 +4817,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &116000029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6434,6 +6455,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &154329411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6605,6 +6629,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &154863817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8614,6 +8641,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &216855948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9207,6 +9237,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &227484684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9411,6 +9444,89 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5013409385638664234, guid: de62f80879dffa54da1867de98a39a36, type: 3}
   m_PrefabInstance: {fileID: 1815220308}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &229930368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 229930372}
+  - component: {fileID: 229930371}
+  - component: {fileID: 229930370}
+  m_Layer: 0
+  m_Name: Cylinder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &229930370
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229930368}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4a67fc644453337429cb1c469313cce2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &229930371
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229930368}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &229930372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229930368}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0000007211793, y: -0.70779544, z: 0.00000002545837, w: 0.7064175}
+  m_LocalPosition: {x: 4.844, y: 0.5988, z: -0.201}
+  m_LocalScale: {x: 1, y: 0.0338, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &230917803
 GameObject:
   m_ObjectHideFlags: 0
@@ -9702,6 +9818,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &234176787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10140,6 +10259,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &237699438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10312,6 +10434,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &240022820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10764,6 +10889,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &252093744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10988,6 +11116,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &255592642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12756,6 +12887,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &308557746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13492,6 +13626,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &330707190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13800,6 +13937,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &339785363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14820,6 +14960,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &365349971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15323,6 +15466,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &380881197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15782,6 +15928,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &396905282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16126,7 +16275,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c495b6177651f7940ac55ac83e1fc8cb, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.329
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -16382,6 +16531,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &405354310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18615,6 +18767,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &471932446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19383,6 +19538,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &489188606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19720,6 +19878,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &498079002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20307,6 +20468,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &507193425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22375,6 +22539,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &552736643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22862,6 +23029,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &563017824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23136,6 +23306,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &570807144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23276,6 +23449,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &571411693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23416,6 +23592,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &573299149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24655,6 +24834,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &589723354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26976,6 +27158,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &621938209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28419,6 +28604,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &654018109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29242,6 +29430,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &674569070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29482,6 +29673,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &677731700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31581,6 +31775,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &747807223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32696,6 +32893,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &788261382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32836,6 +33036,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &792182014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35211,6 +35414,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &850402878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35900,6 +36106,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &860904127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36526,6 +36735,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &875882483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38907,6 +39119,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &926984998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39047,6 +39262,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &927642296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39869,6 +40087,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &951475478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41020,6 +41241,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &987198755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43790,6 +44014,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1057759863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44314,6 +44541,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1074512797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45220,6 +45450,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1096476656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45474,6 +45707,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1099289288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46859,6 +47095,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1147740387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48681,6 +48920,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1194314113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49038,6 +49280,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1203123994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49915,6 +50160,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1231569598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51637,6 +51885,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1268492109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52559,6 +52810,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1295751807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53411,6 +53665,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1317769706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53609,6 +53866,134 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1319073754}
   m_Mesh: {fileID: 4300000, guid: 0be8d52cb14158c43a3dfee4bed433f1, type: 2}
+--- !u!1 &1321362001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1321362002}
+  - component: {fileID: 1321362003}
+  m_Layer: 0
+  m_Name: Correct
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1321362002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321362001}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1730636476}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1321362003
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321362001}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8576d88cf6a78af4891cbe4c75ee4ac1, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1321920407
 GameObject:
   m_ObjectHideFlags: 0
@@ -54078,6 +54463,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1330639306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54847,6 +55235,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1347883838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55235,6 +55626,134 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1360217172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1360217173}
+  - component: {fileID: 1360217174}
+  m_Layer: 0
+  m_Name: Wrong
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1360217173
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360217172}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1730636476}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1360217174
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360217172}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d01a8c41e2447114d9ad9d64ae3ef1b1, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1360415244
 GameObject:
   m_ObjectHideFlags: 0
@@ -57094,6 +57613,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1404719981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58401,6 +58923,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1440063086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59400,6 +59925,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1466426765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59978,6 +60506,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1480606260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60930,6 +61461,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1491095046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61654,6 +62188,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1509641800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62492,6 +63029,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1513914904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65022,6 +65562,111 @@ Transform:
   - {fileID: 1413708721}
   m_Father: {fileID: 1392447635}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1554981737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1554981741}
+  - component: {fileID: 1554981740}
+  - component: {fileID: 1554981739}
+  - component: {fileID: 1554981738}
+  m_Layer: 0
+  m_Name: WrongDetector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1554981738
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554981737}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.000002, y: 2.2204466e-16, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1554981739
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554981737}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1554981740
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554981737}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1554981741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554981737}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 5.018, y: 1.667, z: -0.073}
+  m_LocalScale: {x: 0.23986, y: 0.23986, z: 0.23986}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1559536493
 GameObject:
   m_ObjectHideFlags: 0
@@ -65448,6 +66093,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1562300569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65966,6 +66614,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1572414933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67018,6 +67669,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1606685092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67483,6 +68137,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1624883390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68217,6 +68874,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1649433080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68493,6 +69153,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1652740747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68984,6 +69647,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1669057119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69811,6 +70477,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1690991816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70705,6 +71374,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1705683626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72131,6 +72803,8 @@ Transform:
   - {fileID: 1484039739}
   - {fileID: 250313809}
   - {fileID: 402388793}
+  - {fileID: 1321362002}
+  - {fileID: 1360217173}
   m_Father: {fileID: 1730573304}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1730636478
@@ -72323,6 +72997,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1733337943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72503,6 +73180,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1734364806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73981,6 +74661,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1771717726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74623,6 +75306,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1780946597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74894,6 +75580,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1793683041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75097,6 +75786,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1796563015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76110,6 +76802,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1830860316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76737,6 +77432,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1840603184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77462,6 +78160,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1851677101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78595,6 +79296,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1883516555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79068,6 +79772,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1886961961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80587,6 +81294,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1936594959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81475,6 +82185,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1964806580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81678,6 +82391,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1967171136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82283,6 +82999,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1982976001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82423,6 +83142,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &1983918616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83328,6 +84050,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &2004904924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83619,6 +84344,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &2012605145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83759,6 +84487,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &2014192283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83899,6 +84630,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &2015970549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84698,6 +85432,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &2031576211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86227,6 +86964,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &2074292437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87066,6 +87806,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &2095463710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88208,6 +88951,9 @@ MonoBehaviour:
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
   percent: {fileID: 1198934383}
+  correct: {fileID: 1321362003}
+  wrong: {fileID: 1360217174}
+  wrongDetector: {fileID: 1554981737}
 --- !u!114 &2134295127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90949,6 +91695,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 631253724}
   - {fileID: 1166986213}
+  - {fileID: 229930372}
   - {fileID: 1916834820}
   - {fileID: 1987417126}
   - {fileID: 975081067}
@@ -91027,3 +91774,4 @@ SceneRoots:
   - {fileID: 1537924292}
   - {fileID: 1318451691}
   - {fileID: 1312075079}
+  - {fileID: 1554981741}
