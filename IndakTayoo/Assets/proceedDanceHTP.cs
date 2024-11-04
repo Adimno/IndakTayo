@@ -7,12 +7,14 @@ public class proceedDanceHTP : MonoBehaviour
 {
     public GameObject[] objectsToMonitor;
     public GameObject audioSource;
-
+    public BoxCollider Destroy;
     void Update()
     {
         if (AllTextIsGreen())
         {
             audioSource.SetActive(true);
+
+            Destroy(Destroy);
         }
     }
 
