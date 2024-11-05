@@ -6,21 +6,27 @@ using TMPro;
 public class TotalPoints : MonoBehaviour
 {
     public TextMeshProUGUI textMeshPro;
-    public int points = 0;
+    private int points = 0;
 
     void Update()
     {
-        // Update the TextMeshPro text with taskPercentage value
+        // Update the TextMeshPro text with points value
         textMeshPro.text = points + " pts";
     }
 
-    // Function to increment taskPercentage by a specified value
+    // Property to get the points value
+    public int Points
+    {
+        get { return points; }
+    }
+
+    // Function to increment points by a specified value
     public void IncrementPoints(int incrementValue)
     {
         points += incrementValue;
     }
 
-    // Function to decrement taskPercentage by a specified value
+    // Function to decrement points by a specified value
     public void DecrementPoints(int decrementValue)
     {
         points -= decrementValue;
