@@ -123,6 +123,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &5401634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5401635}
+  m_Layer: 0
+  m_Name: art gallery (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5401635
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5401634}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &10343901
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,10 +410,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'A vibrant group of dancers joyfully performs a traditional Filipino folk
-    dance, dressed in colorful, flowing skirts and embroidered blouses. The scene
-    captures the lively spirit of Filipino folk dances like the Polkabal, where dancers
-    move rhythmically to celebrate community and heritage. '
+  m_text: Bayanihan, symbolized by villagers moving a nipa hut together, reflects
+    the unity central to Filipino culture and group folk dances
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1034,7 +1063,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5013409385638664234, guid: de62f80879dffa54da1867de98a39a36, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.921
+      value: 10.901157
       objectReference: {fileID: 0}
     - target: {fileID: 5013409385638664234, guid: de62f80879dffa54da1867de98a39a36, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1042,11 +1071,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5013409385638664234, guid: de62f80879dffa54da1867de98a39a36, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.8565917
+      value: -5.6714044
       objectReference: {fileID: 0}
     - target: {fileID: 5013409385638664234, guid: de62f80879dffa54da1867de98a39a36, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.85891676
+      value: 0.7946724
       objectReference: {fileID: 0}
     - target: {fileID: 5013409385638664234, guid: de62f80879dffa54da1867de98a39a36, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1054,7 +1083,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5013409385638664234, guid: de62f80879dffa54da1867de98a39a36, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5121153
+      value: 0.6070385
       objectReference: {fileID: 0}
     - target: {fileID: 5013409385638664234, guid: de62f80879dffa54da1867de98a39a36, type: 3}
       propertyPath: m_LocalRotation.z
@@ -1066,7 +1095,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5013409385638664234, guid: de62f80879dffa54da1867de98a39a36, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 61.61
+      value: 74.751
       objectReference: {fileID: 0}
     - target: {fileID: 5013409385638664234, guid: de62f80879dffa54da1867de98a39a36, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1830,7 +1859,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a323ad4a443678445ba1599dbca49f08, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bd0a460d906d9a04d9dbe159831f7509, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2131,6 +2160,37 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &588382510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 588382511}
+  m_Layer: 0
+  m_Name: art gallery (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &588382511
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588382510}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &626348462
 GameObject:
   m_ObjectHideFlags: 0
@@ -4557,6 +4617,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1196001608}
   m_CullTransparentMesh: 1
+--- !u!1 &1205532181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1205532182}
+  m_Layer: 0
+  m_Name: art gallery (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1205532182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205532181}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1206410092
 GameObject:
   m_ObjectHideFlags: 0
@@ -5580,7 +5671,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7c066f1516509954da7e50f7ca225bd0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7627bb30e4b2b6e4f8fd0d55c5aa0471, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5686,10 +5777,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'A vibrant group of dancers joyfully performs a traditional Filipino folk
-    dance, dressed in colorful, flowing skirts and embroidered blouses. The scene
-    captures the lively spirit of Filipino folk dances like the Polkabal, where dancers
-    move rhythmically to celebrate community and heritage. '
+  m_text: Traditional instruments like the kulintang and bamboo drums bring rhythm
+    and life to folk dances, preserving Filipino heritage through music.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6722,10 +6811,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ' In this traditional Filipino folk dance performance, dancers showcase
-    the elegant steps of the Jotabal or Polkabal. The male dancer, dressed in a barong
-    tagalog and straw hat, and the female dancer in a baro''t saya, embody the charm
-    and grace of this cultural dance. '
+  m_text: "Vibrant festivals such as Sinulog and Ati-Atihan celebrate Filipino traditions
+    with lively dances, colorful costumes, and community spirit\r.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7081,7 +7168,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a323ad4a443678445ba1599dbca49f08, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3c7bead920925b4f81b5cf8570c265f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7375,10 +7462,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ' In this traditional Filipino folk dance performance, dancers showcase
-    the elegant steps of the Jotabal or Polkabal. The male dancer, dressed in a barong
-    tagalog and straw hat, and the female dancer in a baro''t saya, embody the charm
-    and grace of this cultural dance. '
+  m_text: Folk dances like Jotabal and Polkabal tell stories of community, love,
+    and nature, reflecting the heart of Filipino culture.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8211,3 +8296,6 @@ SceneRoots:
   - {fileID: 1992647149}
   - {fileID: 974656742}
   - {fileID: 629681240}
+  - {fileID: 1205532182}
+  - {fileID: 5401635}
+  - {fileID: 588382511}
