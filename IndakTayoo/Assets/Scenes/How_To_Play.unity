@@ -853,7 +853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   welcomeCanvas: {fileID: 8651261}
   ViewCheckList: {fileID: 838950618}
-  switchDelayWelcome: 5
+  switchDelayWelcome: 17
 --- !u!1 &128050520
 GameObject:
   m_ObjectHideFlags: 0
@@ -14333,7 +14333,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1551075194
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15568,7 +15568,7 @@ MonoBehaviour:
   - {fileID: 1433485827}
   - {fileID: 1830451563}
   audioSource: {fileID: 983725838}
-  DestroyCollider: {fileID: 759751057}
+  TurnOnCollider: {fileID: 1358506624}
 --- !u!1 &1741305850
 GameObject:
   m_ObjectHideFlags: 0

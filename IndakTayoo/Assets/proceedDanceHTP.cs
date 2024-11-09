@@ -7,14 +7,15 @@ public class proceedDanceHTP : MonoBehaviour
 {
     public GameObject[] objectsToMonitor;
     public GameObject audioSource;
-    public BoxCollider DestroyCollider;
+    public BoxCollider TurnOnCollider;
     void Update()
     {
         if (AllTextIsGreen())
         {
             audioSource.SetActive(true);
 
-            Destroy(DestroyCollider);
+
+            TurnOnCollider.enabled = true;
         }
     }
 
@@ -25,6 +26,7 @@ public class proceedDanceHTP : MonoBehaviour
             TextMeshProUGUI textMesh = obj.GetComponent<TextMeshProUGUI>();
             if (textMesh == null || textMesh.color != Color.green)
             {
+                TurnOnCollider.enabled = false;
                 return false;
             }
         }
