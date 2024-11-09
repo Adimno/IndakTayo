@@ -6,14 +6,12 @@ using UnityEngine;
 public class HeadMovementLogic : MonoBehaviour
 {
     public GameObject cameraHead;
-    //public HeadMovementIcon LU;
-    //public HeadMovementIcon LD;
-    //public HeadMovementIcon LL;
-    //public HeadMovementIcon LR;
-    //public HeadMovementIcon TL;
-    //public HeadMovementIcon TR;
     public TextMeshProUGUI textComponent;
     public TextMeshProUGUI textComponent2;
+    public TextMeshProUGUI textComponent3;
+    public TextMeshProUGUI textComponent4;   
+    public TextMeshProUGUI textComponent5;
+    public TextMeshProUGUI textComponent6;
 
     // Start is called before the first frame update
     void Start()
@@ -28,56 +26,63 @@ public class HeadMovementLogic : MonoBehaviour
         float xRotation = cameraHead.transform.rotation.eulerAngles.x;
         float yRotation = cameraHead.transform.rotation.eulerAngles.y;
         float zRotation = cameraHead.transform.rotation.eulerAngles.z;
-        Debug.Log(" y: " + yRotation + " z: " + zRotation);
+        Debug.Log("x: " + xRotation + " y: " + yRotation + " z: " + zRotation);
 
-        ////PITCH
-        //// LOOK UP
-        //if (xRotation >= 300f && xRotation <= 320f)
-        //{
-        //    LU.SetCheckIconVisible(true);
-        //    LU.SetUncheckIconVisible(false);
-        //}
-        ////PITCH
-        //// LOOK DOWN
-        //else if (xRotation >= 60f && xRotation <= 75f)
-        //{
-        //    LD.SetCheckIconVisible(true);
-        //    LD.SetUncheckIconVisible(false);
-        //}
-
-        //YAW
-        ////LOOK LEFT
-        //if (yRotation >= 100f && yRotation <= 110f)
-        //{
-        //    LL.SetCheckIconVisible(true);
-        //    LL.SetUncheckIconVisible(false);
-        //}
-        ////YAW
-        ////LOOK RIGHT
-        //else if (yRotation >= 250f && yRotation <= 260f)
-        //{
-        //    LR.SetCheckIconVisible(true);
-        //    LR.SetUncheckIconVisible(false);
-        //}
-
-        //ROLL
-        //TILT TO THE LEFT
-         if (zRotation >= 70f && zRotation <= 80f)
+        //PITCH
+        // LOOK UP
+        if (xRotation >= 300f && xRotation <= 320f)
         {
             if (textComponent != null)
             {
-                textComponent.color = Color.green;
+                textComponent2.color = Color.green;
             }
         }
-        //ROLL
-        //TILT TO THE RIGHT
-        else if (zRotation >= 270f && zRotation <= 300f)
+        //PITCH
+        // LOOK DOWN
+        else if (xRotation >= 60f && xRotation <= 75f)
         {
             if (textComponent2 != null)
             {
                 textComponent2.color = Color.green;
             }
-
         }
+
+        //YAW
+        //LOOK LEFT
+        else if (yRotation >= 100f && yRotation <= 110f)
+        {
+            if (textComponent3 != null)
+            {
+                textComponent3.color = Color.green;
+            }
+        }
+        //YAW
+        //LOOK RIGHT
+        else if (yRotation >= 250f && yRotation <= 260f)
+        {
+            if (textComponent4!= null)
+            {
+                textComponent4 .color = Color.green;
+            }
+        }
+
+        //ROLL
+        //TILT TO THE LEFT
+        else if (zRotation >= 70f && zRotation <= 80f)
+        {
+            if (textComponent5 != null)
+            {
+                textComponent5.color = Color.green;
+            }
+        }
+        //ROLL
+        //TILT TO THE RIGHT
+        else if (zRotation >= 270f && zRotation <= 300f)
+
+            if (textComponent6 != null)
+            {
+                textComponent6.color = Color.green;
+            }
     }
+    
 }
