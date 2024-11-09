@@ -34,7 +34,7 @@ public class HeadMovementLogic : MonoBehaviour
         {
             if (textComponent != null)
             {
-                textComponent2.color = Color.green;
+                textComponent.color = Color.green;
             }
         }
         //PITCH
