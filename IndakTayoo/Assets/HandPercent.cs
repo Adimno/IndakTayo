@@ -32,8 +32,7 @@ public class HandPercent : MonoBehaviour
             int currentPercentage = taskPercentage.TaskPercentageValue;
             textMeshPro.text = currentPercentage + "%";
 
-            // Optional: Log the current percentage for debugging
-            Debug.Log("HandPercent displaying task percentage: " + currentPercentage);
+
         }
     }
 }
