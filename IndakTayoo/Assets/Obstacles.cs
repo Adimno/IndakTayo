@@ -10,13 +10,16 @@ public class Obstacles : MonoBehaviour
     public AudioSource ObstacleSounds;
     public TotalPoints points;
 
+    private bool hasCollided = false;
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject == Head)
+        if (!hasCollided && (other.gameObject == Head || other.gameObject == Right || other.gameObject == Left))
         {
             Debug.Log("MALI");
             points.DecrementPoints(10);
             ObstacleSounds.Play();
+            hasCollided = true;
         }
     }
 }
