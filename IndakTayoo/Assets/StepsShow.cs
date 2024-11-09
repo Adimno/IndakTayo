@@ -10,6 +10,7 @@ public class StepsShow : MonoBehaviour
     public GameObject targetObject3;
     public GameObject targetObject4;
     public bool isStart = false;
+    public TimerWatch timerDisplay;
 
     void Start()
     {
@@ -53,6 +54,16 @@ public class StepsShow : MonoBehaviour
 
         // Deactivate targetObject4
         if (targetObject4 != null) targetObject4.SetActive(false);
+
+        // Start the timer if timerDisplay is assigned
+        if (timerDisplay != null)
+        {
+            timerDisplay.startTimer = true;
+        }
+        else
+        {
+            Debug.LogWarning("TimerWatch reference (timerDisplay) is missing!");
+        }
     }
 
     public void StartSequence()
