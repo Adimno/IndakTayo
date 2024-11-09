@@ -54,4 +54,9 @@ public class StepsShow : MonoBehaviour
         // Deactivate targetObject4
         if (targetObject4 != null) targetObject4.SetActive(false);
     }
+
+    public void StartSequence()
+    {
+        isStart = true;
+    }
 }

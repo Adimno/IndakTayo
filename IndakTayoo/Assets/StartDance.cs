@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class StartDance : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject Steps;
+    public GameObject MaleSteps;
+    public GameObject FemaleSteps;
+    public StepsShow stepsShow;
+    public GameObject CharacterSelection;
 
-    // Update is called once per frame
-    void Update()
+    // Start is called before the first frame update
+    public void Male()
     {
-        
+        stepsShow.StartSequence();
+        Steps.SetActive(true);
+        MaleSteps.SetActive(true);
+        FemaleSteps.SetActive(false);
+        CharacterSelection.SetActive(false);
+
+    }
+    public void Female()
+    {
+        stepsShow.StartSequence();
+        Steps.SetActive(true);
+        MaleSteps.SetActive(false);
+        FemaleSteps.SetActive(true);
+        CharacterSelection.SetActive(false);
     }
 }
