@@ -9783,7 +9783,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4437740444655485379, guid: de62f80879dffa54da1867de98a39a36, type: 3}
       propertyPath: m_Name
-      value: Menu_Board (1)
+      value: Score
       objectReference: {fileID: 0}
     - target: {fileID: 5013409385638664234, guid: de62f80879dffa54da1867de98a39a36, type: 3}
       propertyPath: m_LocalPosition.x
@@ -121599,7 +121599,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4437740444655485379, guid: de62f80879dffa54da1867de98a39a36, type: 3}
       propertyPath: m_Name
-      value: Menu_Board
+      value: Checklist
       objectReference: {fileID: 0}
     - target: {fileID: 5013409385638664234, guid: de62f80879dffa54da1867de98a39a36, type: 3}
       propertyPath: m_LocalPosition.x
