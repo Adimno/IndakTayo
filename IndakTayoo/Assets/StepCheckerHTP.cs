@@ -12,6 +12,7 @@ public class StepCheckerHTP : MonoBehaviour
     public AudioSource correct;
     public AudioSource wrong;
     public GameObject wrongDetector;
+ 
 
     private bool hasTriggered = false; // Flag to ensure actions run only once
 
@@ -42,6 +43,7 @@ public class StepCheckerHTP : MonoBehaviour
             points.IncrementPoints(25);
             correct.Play();
 
+    
             hasTriggered = true; // Set the flag to true to prevent future triggers
         }
 
