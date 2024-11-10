@@ -1223,6 +1223,7 @@ GameObject:
   - component: {fileID: 15219187}
   - component: {fileID: 15219186}
   - component: {fileID: 15219185}
+  - component: {fileID: 15219188}
   m_Layer: 0
   m_Name: longtext
   m_TagString: Untagged
@@ -1447,6 +1448,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 15219183}
   m_CullTransparentMesh: 1
+--- !u!114 &15219188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15219183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbdad0a87f6f4ce4485704a176c2ead1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0.047
 --- !u!1 &16571475
 GameObject:
   m_ObjectHideFlags: 0
@@ -11367,6 +11381,7 @@ GameObject:
   - component: {fileID: 180621620}
   - component: {fileID: 180621619}
   - component: {fileID: 180621621}
+  - component: {fileID: 180621622}
   m_Layer: 0
   m_Name: longtext
   m_TagString: Untagged
@@ -11589,6 +11604,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &180621622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180621617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbdad0a87f6f4ce4485704a176c2ead1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0.047
 --- !u!1 &180985253
 GameObject:
   m_ObjectHideFlags: 0
@@ -66167,6 +66195,7 @@ GameObject:
   - component: {fileID: 992681249}
   - component: {fileID: 992681248}
   - component: {fileID: 992681247}
+  - component: {fileID: 992681250}
   m_Layer: 0
   m_Name: Welcome
   m_TagString: Untagged
@@ -66386,6 +66415,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 992681245}
   m_CullTransparentMesh: 1
+--- !u!114 &992681250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992681245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbdad0a87f6f4ce4485704a176c2ead1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0.047
 --- !u!1 &993424056
 GameObject:
   m_ObjectHideFlags: 0
@@ -95272,7 +95314,7 @@ SpriteRenderer:
   m_Size: {x: 6.4, y: 3.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1434473204
@@ -141393,7 +141435,7 @@ SpriteRenderer:
   m_Size: {x: 6.4, y: 3.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2097654783
