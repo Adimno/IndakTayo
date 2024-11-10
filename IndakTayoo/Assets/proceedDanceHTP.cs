@@ -8,13 +8,15 @@ public class proceedDanceHTP : MonoBehaviour
     public GameObject[] objectsToMonitor;
     public GameObject audioSource;
     public BoxCollider TurnOnCollider;
+    public GameObject TurnOffChecklistIMUCanvas;
+    public GameObject TurnOnDanceCanvas;
     void Update()
     {
         if (AllTextIsGreen())
         {
             audioSource.SetActive(true);
-
-
+            TurnOffChecklistIMUCanvas.SetActive(false);
+            TurnOnDanceCanvas.SetActive(true);
             TurnOnCollider.enabled = true;
         }
     }
