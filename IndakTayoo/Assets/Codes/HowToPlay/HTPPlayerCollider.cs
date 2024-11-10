@@ -9,11 +9,15 @@ public class HTPPlayerCollider : MonoBehaviour
     public GameObject DestroyCollider;
 
     public TextMeshProUGUI textComponent;
+    public StepShowHTP StepShowHTP;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
+            StepShowHTP.StartSequence(other);
+
+
             Destroy(DestroyCollider);
 
             // Change text color to green
@@ -21,6 +25,7 @@ public class HTPPlayerCollider : MonoBehaviour
             {
                 textComponent.color = Color.green;
             }
+
         }
     }
 }

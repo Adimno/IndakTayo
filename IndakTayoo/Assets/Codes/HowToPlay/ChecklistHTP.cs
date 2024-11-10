@@ -8,7 +8,7 @@ public class ChecklistHTP : MonoBehaviour
     public GameObject DestroyChecklist;
     public GameObject ChecklistCanvasIMU;
     public GameObject DestroyCollider;
-    public GameObject GoRoomCanvasIMU;
+
 
 
     private void OnTriggerEnter(Collider other)
@@ -16,8 +16,12 @@ public class ChecklistHTP : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             IMUChecklist.SetActive(true);
-            
+
             ChecklistCanvasIMU.SetActive(true);
+
+
+            Destroy(DestroyCollider);
+
 
             if(DestroyChecklist !=null)
             {
@@ -25,7 +29,7 @@ public class ChecklistHTP : MonoBehaviour
             }
         }
 
-        GoRoomCanvasIMU.SetActive(false);
-        Destroy(DestroyCollider);
+
+   
     }
 }

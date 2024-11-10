@@ -55,8 +55,11 @@ public class StepShowHTP : MonoBehaviour
         if (targetObject4 != null) targetObject4.SetActive(false);
     }
 
-    public void StartSequence()
+    public void StartSequence(Collider other)
     {
-        isStart = true;
+        if (other.CompareTag("Player"))
+        {
+            isStart = true;
+        }
     }
 }
