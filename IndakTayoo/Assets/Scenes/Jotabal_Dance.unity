@@ -11428,10 +11428,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "IndakTayo! Here, you\u2019ll learn and master the beautiful dance of Jota
-    Bal in an interactive virtual environment. Get ready to immerse yourself in the
-    rhythms and movements of this traditional Philippine folk dance as you follow
-    along with guided steps and poses."
+  m_text: "Welcome to IndakTayo! Here, you\u2019ll learn and master the beautiful
+    dance of Jota Bal in an interactive virtual environment. Get ready to immerse
+    yourself in the rhythms and movements of this traditional Philippine folk dance
+    as you follow along with guided steps and poses."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
   m_sharedMaterial: {fileID: -9221056233183343877, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
@@ -66195,7 +66195,6 @@ GameObject:
   - component: {fileID: 992681249}
   - component: {fileID: 992681248}
   - component: {fileID: 992681247}
-  - component: {fileID: 992681250}
   m_Layer: 0
   m_Name: Welcome
   m_TagString: Untagged
@@ -66338,7 +66337,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Welcome
+  m_text: Greetings!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
   m_sharedMaterial: {fileID: -9221056233183343877, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
@@ -66415,19 +66414,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 992681245}
   m_CullTransparentMesh: 1
---- !u!114 &992681250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 992681245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbdad0a87f6f4ce4485704a176c2ead1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 0.047
 --- !u!1 &993424056
 GameObject:
   m_ObjectHideFlags: 0
