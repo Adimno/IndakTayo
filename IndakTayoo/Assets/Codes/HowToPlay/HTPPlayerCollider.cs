@@ -10,6 +10,7 @@ public class HTPPlayerCollider : MonoBehaviour
 
     public TextMeshProUGUI textComponent;
     public StepShowHTP StepShowHTP;
+    public GameObject DanceSteps; 
 
     private void OnTriggerEnter(Collider other)
     {
@@ -17,6 +18,7 @@ public class HTPPlayerCollider : MonoBehaviour
         {
             StepShowHTP.StartSequence(other);
 
+            DanceSteps.SetActive(true);
 
             Destroy(DestroyCollider);
 
