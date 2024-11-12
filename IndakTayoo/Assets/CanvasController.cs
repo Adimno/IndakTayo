@@ -6,6 +6,7 @@ public class CanvasController : MonoBehaviour
 {
     public GameObject WelcomeCanvas;
     public GameObject GameMechanicsCanvas;
+    public GameObject SelectDifficultyCanvas;
     public GameObject CharacterSelectionCanvas;
 
     void Start()
@@ -18,6 +19,7 @@ public class CanvasController : MonoBehaviour
     {
         WelcomeCanvas.SetActive(true);
         GameMechanicsCanvas.SetActive(false);
+        SelectDifficultyCanvas.SetActive(false);
         CharacterSelectionCanvas.SetActive(false);
     }
 
@@ -25,6 +27,15 @@ public class CanvasController : MonoBehaviour
     {
         WelcomeCanvas.SetActive(false);
         GameMechanicsCanvas.SetActive(true);
+        SelectDifficultyCanvas.SetActive(false);
+        CharacterSelectionCanvas.SetActive(false);
+    }
+
+    public void ShowSelectDifficultyCanvas()
+    {
+        WelcomeCanvas.SetActive(false);
+        GameMechanicsCanvas.SetActive(false);
+        SelectDifficultyCanvas.SetActive(true);
         CharacterSelectionCanvas.SetActive(false);
     }
 
@@ -32,6 +43,7 @@ public class CanvasController : MonoBehaviour
     {
         WelcomeCanvas.SetActive(false);
         GameMechanicsCanvas.SetActive(false);
+        SelectDifficultyCanvas.SetActive(false);
         CharacterSelectionCanvas.SetActive(true);
     }
 
@@ -43,6 +55,6 @@ public class CanvasController : MonoBehaviour
 
         // Wait another 10 seconds, then show CharacterSelectionCanvas
         yield return new WaitForSeconds(30f);
-        ShowCharacterSelectionCanvas();
+        ShowSelectDifficultyCanvas();
     }
 }
