@@ -94663,6 +94663,8 @@ MonoBehaviour:
   MusicEasy: {fileID: 402388794}
   MusicAverage: {fileID: 1111712172}
   MusicHard: {fileID: 1254195186}
+  speedController: {fileID: 975081068}
+  currentSpeed: 0
 --- !u!1 &1403447873
 GameObject:
   m_ObjectHideFlags: 0

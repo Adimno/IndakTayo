@@ -13,9 +13,14 @@ public class StopWatch : MonoBehaviour
     public AudioSource MusicEasy;
     public AudioSource MusicAverage;
     public AudioSource MusicHard;
+    public SpeedController speedController;
+    public float currentSpeed;
 
     void Start()
     {
+        // Set currentSpeed to the value of savedSpeed initially
+        UpdateCurrentSpeed();
+
         if (statusText != null)
         {
             statusText.text = "Stop";
@@ -24,6 +29,7 @@ public class StopWatch : MonoBehaviour
             Debug.Log("Initial Status: STOP");
         }
 
+        // Ensure audio sources are correctly assigned
         if (MusicEasy == null)
         {
             MusicEasy = GetComponent<AudioSource>();
@@ -63,6 +69,7 @@ public class StopWatch : MonoBehaviour
                 MusicEasy.Pause();
                 MusicAverage.Pause();
                 MusicHard.Pause();
+                speedController.speed = 0f;
                 Debug.Log("Status Changed: GO");
             }
             else
@@ -73,10 +80,19 @@ public class StopWatch : MonoBehaviour
                 MusicEasy.Play();
                 MusicAverage.Play();
                 MusicHard.Play();
+                UpdateCurrentSpeed(); // Make sure currentSpeed is updated before starting the stopwatch
+                speedController.speed = currentSpeed;
                 Debug.Log("Status Changed: STOP");
             }
         }
 
         canToggle = true;
+    }
+
+    // Update currentSpeed from savedSpeed whenever needed
+    private void UpdateCurrentSpeed()
+    {
+        currentSpeed = SelectDifficulty.GetSavedSpeed();
+        Debug.Log("Current Speed Updated: " + currentSpeed);
     }
 }
