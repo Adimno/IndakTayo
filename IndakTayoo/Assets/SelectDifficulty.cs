@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class SelectDifficulty : MonoBehaviour
 {
-
     public GameObject SelectDifficultyCanvas;
     public GameObject CharacterSelectionCanvas;
     public SpeedController speedController;
+    public GameObject MusicEasy;
+    public GameObject MusicAverage;
+    public GameObject MusicHard;
+
 
     public void Easy()
     {
         speedController.speed = 0.5f;
         CharacterSelectionCanvas.SetActive(true);
+        MusicEasy.SetActive(true);
         SelectDifficultyCanvas.SetActive(false);
     }
 
@@ -20,6 +24,7 @@ public class SelectDifficulty : MonoBehaviour
     {
         speedController.speed = 1.0f;
         CharacterSelectionCanvas.SetActive(true);
+        MusicAverage.SetActive(true);
         SelectDifficultyCanvas.SetActive(false);
     }
 
@@ -27,6 +32,7 @@ public class SelectDifficulty : MonoBehaviour
     {
         speedController.speed = 1.5f;
         CharacterSelectionCanvas.SetActive(true);
+        MusicHard.SetActive(true);
         SelectDifficultyCanvas.SetActive(false);
     }
 }
