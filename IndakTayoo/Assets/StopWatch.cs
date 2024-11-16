@@ -57,7 +57,7 @@ public class StopWatch : MonoBehaviour
     private IEnumerator ToggleTextWithDelay()
     {
         canToggle = false;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.2f);
 
         if (statusText != null)
         {

@@ -16,7 +16,8 @@ public class TimerWatch : MonoBehaviour
     {
         if (startTimer && !isPaused && elapsedTime < targetTime)
         {
-            elapsedTime += Time.deltaTime;
+            // Use the saved speed from SelectDifficulty to affect the timer progression
+            elapsedTime += Time.deltaTime * SelectDifficulty.savedSpeed;
 
             if (elapsedTime >= targetTime)
             {
