@@ -13904,12 +13904,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229930368}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0000007211793, y: -0.70779544, z: 0.00000002545837, w: 0.7064175}
-  m_LocalPosition: {x: 5.397, y: 0.5988, z: -0.163}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.026, y: -0.966, z: -0.122}
   m_LocalScale: {x: 1, y: 0.0338, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1916834820}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &230391802
 GameObject:
@@ -132886,6 +132886,7 @@ GameObject:
   - component: {fileID: 1916834820}
   - component: {fileID: 1916834819}
   - component: {fileID: 1916834818}
+  - component: {fileID: 1916834821}
   m_Layer: 0
   m_Name: OVRPlayerController
   m_TagString: Untagged
@@ -132960,9 +132961,33 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 229930372}
   - {fileID: 1730636474}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90.112, z: 0}
+--- !u!136 &1916834821
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916834817}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1918820710
 GameObject:
   m_ObjectHideFlags: 0
@@ -152271,7 +152296,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 631253724}
   - {fileID: 1166986213}
-  - {fileID: 229930372}
   - {fileID: 1916834820}
   - {fileID: 1987417126}
   - {fileID: 975081067}
