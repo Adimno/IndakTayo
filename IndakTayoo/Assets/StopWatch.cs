@@ -15,7 +15,7 @@ public class StopWatch : MonoBehaviour
     public AudioSource MusicHard;
     public SpeedController speedController;
     public float currentSpeed;
-
+    public TimerWatch timerDisplay;
     void Start()
     {
         // Set currentSpeed to the value of savedSpeed initially
@@ -70,6 +70,7 @@ public class StopWatch : MonoBehaviour
                 MusicAverage.Pause();
                 MusicHard.Pause();
                 speedController.speed = 0f;
+                timerDisplay.PauseTimer();
                 Debug.Log("Status Changed: GO");
             }
             else
@@ -80,6 +81,7 @@ public class StopWatch : MonoBehaviour
                 MusicEasy.Play();
                 MusicAverage.Play();
                 MusicHard.Play();
+                timerDisplay.ResumeTimer();
                 UpdateCurrentSpeed(); // Make sure currentSpeed is updated before starting the stopwatch
                 speedController.speed = currentSpeed;
                 Debug.Log("Status Changed: STOP");

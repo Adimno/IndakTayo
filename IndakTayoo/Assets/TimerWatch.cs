@@ -6,8 +6,8 @@ using TMPro;
 public class TimerWatch : MonoBehaviour
 {
     public TextMeshProUGUI timerText; // Assign this in the Inspector
-    public bool startTimer = false;   // Set to true to start the timer
-    public bool isPaused = false;     // Set to true to pause the timer
+    public bool startTimer = false;  // Set to true to start the timer
+    public bool isPaused = false;    // Set to true to pause the timer
 
     private float elapsedTime = 0f;
     private float targetTime = 4 * 60 + 45; // Target time in seconds (4 minutes 45 seconds)
@@ -26,6 +26,16 @@ public class TimerWatch : MonoBehaviour
 
             UpdateTimerDisplay(elapsedTime);
         }
+    }
+
+    public void PauseTimer()
+    {
+        isPaused = true;
+    }
+
+    public void ResumeTimer()
+    {
+        isPaused = false;
     }
 
     void UpdateTimerDisplay(float time)
