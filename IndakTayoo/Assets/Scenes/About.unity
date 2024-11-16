@@ -132,9 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8789468}
-  - component: {fileID: 8789467}
   - component: {fileID: 8789469}
-  - component: {fileID: 8789470}
   m_Layer: 0
   m_Name: InstrumentsCanvas
   m_TagString: Untagged
@@ -142,29 +140,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!223 &8789467
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8789464}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
 --- !u!224 &8789468
 RectTransform:
   m_ObjectHideFlags: 0
@@ -189,44 +164,29 @@ RectTransform:
   m_AnchoredPosition: {x: 8.179525, y: 1.7270981}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &8789469
-MonoBehaviour:
+--- !u!223 &8789469
+Canvas:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8789464}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b38292d83ec3c27459d400962c58afe2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectsToMove:
-  - {fileID: 919422977}
-  - {fileID: 1705315207}
-  - {fileID: 229261150}
-  currentIndex: 0
-  incrementButton: {fileID: 650691674}
-  decrementButton: {fileID: 650691674}
---- !u!114 &8789470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8789464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7aaf960227867044282d921171d2d7ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 0
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  pointer: {fileID: 0}
-  sortOrder: 0
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &10343901
 GameObject:
   m_ObjectHideFlags: 0
@@ -4094,7 +4054,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8789469}
+      - m_Target: {fileID: 850268220}
         m_TargetAssemblyTypeName: MMCanvasMoverButtons, Assembly-CSharp
         m_MethodName: DecrementIndex
         m_Mode: 1
@@ -5794,8 +5754,9 @@ GameObject:
   - component: {fileID: 850268219}
   - component: {fileID: 850268218}
   - component: {fileID: 850268217}
+  - component: {fileID: 850268220}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5834,7 +5795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aaf960227867044282d921171d2d7ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
+  m_IgnoreReversedGraphics: 0
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
@@ -5887,6 +5848,25 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &850268220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850268215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b38292d83ec3c27459d400962c58afe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToMove:
+  - {fileID: 919422977}
+  - {fileID: 1705315207}
+  - {fileID: 229261150}
+  currentIndex: 0
+  incrementButton: {fileID: 650691674}
+  decrementButton: {fileID: 650691674}
 --- !u!1 &866463062
 GameObject:
   m_ObjectHideFlags: 0
@@ -6378,7 +6358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 919422978}
   - component: {fileID: 919422980}
-  - component: {fileID: 919422979}
+  - component: {fileID: 919422981}
   m_Layer: 0
   m_Name: Inst1
   m_TagString: Untagged
@@ -6405,7 +6385,15 @@ RectTransform:
   m_AnchoredPosition: {x: 0.000000091293224, y: -0.000000026078887}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &919422979
+--- !u!222 &919422980
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919422977}
+  m_CullTransparentMesh: 1
+--- !u!114 &919422981
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6419,9 +6407,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 0
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6435,14 +6423,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &919422980
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919422977}
-  m_CullTransparentMesh: 1
 --- !u!1 &938356883
 GameObject:
   m_ObjectHideFlags: 0
@@ -7727,6 +7707,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1077623916}
   m_CullTransparentMesh: 1
+--- !u!1 &1128126673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1128126674}
+  m_Layer: 0
+  m_Name: Instruments1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1128126674
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128126673}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1148180491
 GameObject:
   m_ObjectHideFlags: 0
@@ -9322,7 +9333,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8789469}
+      - m_Target: {fileID: 850268220}
         m_TargetAssemblyTypeName: MMCanvasMoverButtons, Assembly-CSharp
         m_MethodName: IncrementIndex
         m_Mode: 1
@@ -14644,3 +14655,4 @@ SceneRoots:
   - {fileID: 618050277}
   - {fileID: 505442025}
   - {fileID: 1528273309}
+  - {fileID: 1128126674}
