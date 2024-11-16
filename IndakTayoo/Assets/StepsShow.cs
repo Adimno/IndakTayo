@@ -11,9 +11,13 @@ public class StepsShow : MonoBehaviour
     public GameObject targetObject4;
     public bool isStart = false;
     public TimerWatch timerDisplay;
+    public GameObject NoLogicStopGO;
+    public GameObject LogicStopGO;
 
     void Start()
     {
+        LogicStopGO.SetActive(false);
+        NoLogicStopGO.SetActive(true);
         // Ensure all target objects are initially hidden
         if (targetObject1 != null) targetObject1.SetActive(false);
         if (targetObject2 != null) targetObject2.SetActive(false);
@@ -59,6 +63,8 @@ public class StepsShow : MonoBehaviour
         if (timerDisplay != null)
         {
             timerDisplay.startTimer = true;
+            LogicStopGO.SetActive(true);
+            NoLogicStopGO.SetActive(false);
         }
         else
         {
