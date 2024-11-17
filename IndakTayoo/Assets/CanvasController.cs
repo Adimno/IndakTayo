@@ -54,7 +54,7 @@ public class CanvasController : MonoBehaviour
         ShowGameMechanicsCanvas();
 
         // Wait another 10 seconds, then show CharacterSelectionCanvas
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(30f);
         ShowSelectDifficultyCanvas();
     }
 }
