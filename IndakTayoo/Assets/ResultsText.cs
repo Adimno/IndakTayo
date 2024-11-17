@@ -17,7 +17,7 @@ public class ResultsText : MonoBehaviour
         }
         else
         {
-            Results.text = "Game Over";
+            Results.text = "GAME OVER";
         }
     }
 }
