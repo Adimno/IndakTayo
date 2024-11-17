@@ -28,13 +28,5 @@ public class TaskPercentage : MonoBehaviour
         }
     }
 
-    // Function to decrement taskPercentage by a specified value
-    public void DecrementTaskPercentage(int decrementValue)
-    {
-        taskPercentage -= decrementValue;
-        if (taskPercentage < 0)
-        {
-            taskPercentage = 0; // Ensure taskPercentage does not go below 0
-        }
-    }
+
 }

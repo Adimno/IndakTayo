@@ -11,6 +11,7 @@ public class SelectDifficulty : MonoBehaviour
     public GameObject MusicAverage;
     public GameObject MusicHard;
     public static float savedSpeed;
+    public static string difficultyText;
 
     // Getter for savedSpeed
     public static float GetSavedSpeed()
@@ -18,8 +19,14 @@ public class SelectDifficulty : MonoBehaviour
         return savedSpeed;
     }
 
+    public static string GetDifficulty()
+    {
+        return difficultyText;
+    }
+
     public void Easy()
     {
+        difficultyText = "Easy";
         speedController.speed = 0.5f;
         savedSpeed = speedController.speed;
         CharacterSelectionCanvas.SetActive(true);
@@ -29,6 +36,7 @@ public class SelectDifficulty : MonoBehaviour
 
     public void Average()
     {
+        difficultyText = "Average";
         speedController.speed = 1.0f;
         savedSpeed = speedController.speed;
         CharacterSelectionCanvas.SetActive(true);
@@ -38,6 +46,7 @@ public class SelectDifficulty : MonoBehaviour
 
     public void Hard()
     {
+        difficultyText = "Hard";
         speedController.speed = 1.5f;
         savedSpeed = speedController.speed;
         CharacterSelectionCanvas.SetActive(true);
