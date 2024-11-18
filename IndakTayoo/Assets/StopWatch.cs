@@ -97,4 +97,39 @@ public class StopWatch : MonoBehaviour
         currentSpeed = SelectDifficulty.GetSavedSpeed();
         Debug.Log("Current Speed Updated: " + currentSpeed);
     }
+
+    public void StopEverything()
+    {
+        if (statusText != null)
+        {
+            statusText.text = "Stop";
+            StopMaterial.SetActive(true);
+            GoMaterial.SetActive(false);
+            MusicEasy.Pause();
+            MusicAverage.Pause();
+            MusicHard.Pause();
+            timerDisplay.PauseTimer();
+            speedController.speed = 0f;
+            Debug.Log("Status Changed: STOP from external script");
+        }
+    }
+
+    public void GoEverything()
+    {
+        if (statusText != null)
+        {
+            statusText.text = "Go";
+            GoMaterial.SetActive(true);
+            StopMaterial.SetActive(false);
+            MusicEasy.Play();
+            MusicAverage.Play();
+            MusicHard.Play();
+            timerDisplay.ResumeTimer();
+            UpdateCurrentSpeed(); // Make sure currentSpeed is updated before resuming
+            speedController.speed = currentSpeed;
+            Debug.Log("Status Changed: GO from external script");
+        }
+    }
+
+
 }

@@ -106858,10 +106858,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1522930461}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fb5c93f83faf5c4098fbabe2878a06f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9213273c0d81a9541ae94b44967ae22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1484039738}
+  isActive: 0
+  stopWatch: {fileID: 1402152327}
 --- !u!1 &1522934245
 GameObject:
   m_ObjectHideFlags: 0
