@@ -12,18 +12,18 @@ public class DressScript : MonoBehaviour
     void Start()
     {
         // Save the initial position of the dress.
-        originalPosition = GrabDress.transform.position;
+       // originalPosition = GrabDress.transform.position;
     }
 
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == GrabDress)
         {
-            GrabDress.SetActive(false);
+            Destroy(GrabDress);
             AssetDress.SetActive(true);
 
             // Reset GrabDress's position to the original position.
-            GrabDress.transform.position = originalPosition;
+           // GrabDress.transform.position = originalPosition;
         }
     }
 }

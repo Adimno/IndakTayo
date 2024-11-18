@@ -2827,6 +2827,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum_Display_Table (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8965169561716255598, guid: 1e0bbc9378659e54ea1d9301f710d820, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12025,7 +12029,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1690209658
 Transform:
   m_ObjectHideFlags: 0
@@ -16329,8 +16333,8 @@ SceneRoots:
   - {fileID: 1958741592}
   - {fileID: 1723752920}
   - {fileID: 1360068285}
-  - {fileID: 346710095}
   - {fileID: 24664515}
+  - {fileID: 346710095}
   - {fileID: 189861182}
   - {fileID: 661417035}
   - {fileID: 363302737}
