@@ -3819,7 +3819,7 @@ GameObject:
   - component: {fileID: 468500835}
   - component: {fileID: 468500839}
   - component: {fileID: 468500838}
-  - component: {fileID: 468500837}
+  - component: {fileID: 468500840}
   - component: {fileID: 468500836}
   m_Layer: 0
   m_Name: collider
@@ -3939,42 +3939,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &468500837
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 468500834}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9e49bb605e3e504e90858c20980646f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  button: {fileID: 42981354}
-  onPress:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 468500837}
-        m_TargetAssemblyTypeName: PlayButton, Assembly-CSharp
-        m_MethodName: StartCanvasVideo
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onRelease:
-    m_PersistentCalls:
-      m_Calls: []
-  buttonText: {fileID: 766675897}
-  videoCanvas: {fileID: 1988027501}
-  videoPlayer: {fileID: 1988027498}
-  delayDuration: 1
-  textComponent: {fileID: 0}
 --- !u!54 &468500838
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4023,6 +3987,44 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.070201054, y: 0.023567304, z: 4.3618383}
   m_Center: {x: -0.35481918, y: -0.4881917, z: 1.1049733}
+--- !u!114 &468500840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468500834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e1fd8e20107df4ba4ae651e940ea8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 42981354}
+  onPress:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 468500840}
+        m_TargetAssemblyTypeName: ResetButtonDress, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onRelease:
+    m_PersistentCalls:
+      m_Calls: []
+  delayDuration: 1
+  GrabDresses:
+  - {fileID: 575364339}
+  - {fileID: 1438463476}
+  AssetDresses:
+  - {fileID: 1451337812}
+  - {fileID: 415314727}
 --- !u!1 &505280169
 GameObject:
   m_ObjectHideFlags: 0
@@ -4559,7 +4561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6833039065917537396, guid: 4734bfe71ac70704fad711506a6de05b, type: 3}
       propertyPath: m_TagString
-      value: Dress
+      value: MaleDress1
       objectReference: {fileID: 0}
     - target: {fileID: 7586215606036124541, guid: 4734bfe71ac70704fad711506a6de05b, type: 3}
       propertyPath: m_LocalScale.x
@@ -10795,7 +10797,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8199049947629446246, guid: 6586b531302384a43978e4cddce66072, type: 3}
       propertyPath: m_TagString
-      value: Dress
+      value: FemaleDress1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
