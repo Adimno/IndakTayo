@@ -17,16 +17,7 @@ public class DressScript : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("MaleDress1"))
-        {
-            GrabDress.SetActive(false);
-            AssetDress.SetActive(true);
-
-            // Reset GrabDress's position to the original position.
-            GrabDress.transform.position = originalPosition;
-        }
-
-        if (other.CompareTag("FemaleDress1"))
+        if (other.gameObject == GrabDress)
         {
             GrabDress.SetActive(false);
             AssetDress.SetActive(true);
