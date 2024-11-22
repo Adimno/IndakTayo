@@ -5364,7 +5364,7 @@ GameObject:
   - component: {fileID: 1073811736}
   - component: {fileID: 1073811735}
   - component: {fileID: 1073811734}
-  - component: {fileID: 1073811733}
+  - component: {fileID: 1073811737}
   m_Layer: 0
   m_Name: Concert
   m_TagString: Untagged
@@ -5391,18 +5391,6 @@ RectTransform:
   m_AnchoredPosition: {x: -241, y: -34}
   m_SizeDelta: {x: 92.4, y: 101.1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1073811733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1073811731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a1ba241b6379794eafe76b7e17da538, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1073811734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5447,9 +5435,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1073811733}
-        m_TargetAssemblyTypeName: SceneLoadStage, Assembly-CSharp
-        m_MethodName: MoveToDance
+      - m_Target: {fileID: 1073811737}
+        m_TargetAssemblyTypeName: GotoPolkabal, Assembly-CSharp
+        m_MethodName: MoveToPolkabal_Dance
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5497,6 +5485,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073811731}
   m_CullTransparentMesh: 1
+--- !u!114 &1073811737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073811731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 776d7b80fff557f44bb7ea53ccf596ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageName: Concert
 --- !u!1 &1099185056
 GameObject:
   m_ObjectHideFlags: 0
@@ -8074,7 +8075,7 @@ GameObject:
   - component: {fileID: 1677585530}
   - component: {fileID: 1677585529}
   - component: {fileID: 1677585528}
-  - component: {fileID: 1677585527}
+  - component: {fileID: 1677585531}
   m_Layer: 0
   m_Name: Village
   m_TagString: Untagged
@@ -8101,18 +8102,6 @@ RectTransform:
   m_AnchoredPosition: {x: -11, y: -34}
   m_SizeDelta: {x: 92.4, y: 101.1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1677585527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1677585525}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a1ba241b6379794eafe76b7e17da538, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1677585528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8157,9 +8146,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1677585527}
-        m_TargetAssemblyTypeName: SceneLoadStage, Assembly-CSharp
-        m_MethodName: MoveToDance
+      - m_Target: {fileID: 1677585531}
+        m_TargetAssemblyTypeName: GotoPolkabal, Assembly-CSharp
+        m_MethodName: MoveToPolkabal_Dance
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8207,6 +8196,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677585525}
   m_CullTransparentMesh: 1
+--- !u!114 &1677585531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677585525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 776d7b80fff557f44bb7ea53ccf596ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageName: Village
 --- !u!1 &1680884787
 GameObject:
   m_ObjectHideFlags: 0
@@ -8219,7 +8221,7 @@ GameObject:
   - component: {fileID: 1680884792}
   - component: {fileID: 1680884791}
   - component: {fileID: 1680884790}
-  - component: {fileID: 1680884789}
+  - component: {fileID: 1680884793}
   m_Layer: 0
   m_Name: Ballroom
   m_TagString: Untagged
@@ -8246,18 +8248,6 @@ RectTransform:
   m_AnchoredPosition: {x: 216, y: -33.1}
   m_SizeDelta: {x: 102, y: 137.6}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1680884789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680884787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a1ba241b6379794eafe76b7e17da538, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1680884790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8302,9 +8292,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1680884789}
-        m_TargetAssemblyTypeName: SceneLoadStage, Assembly-CSharp
-        m_MethodName: MoveToDance
+      - m_Target: {fileID: 1680884793}
+        m_TargetAssemblyTypeName: GotoPolkabal, Assembly-CSharp
+        m_MethodName: MoveToPolkabal_Dance
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8352,6 +8342,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1680884787}
   m_CullTransparentMesh: 1
+--- !u!114 &1680884793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680884787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 776d7b80fff557f44bb7ea53ccf596ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageName: Ballroom
 --- !u!1 &1696246457
 GameObject:
   m_ObjectHideFlags: 0
