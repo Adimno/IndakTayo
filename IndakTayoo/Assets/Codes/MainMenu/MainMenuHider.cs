@@ -6,6 +6,7 @@ public class MainMenuHider : MonoBehaviour
 {
     public GameObject StartCanvas;
     public GameObject MainMenu;
+    public string musicValue;
 
     void Start()
     {
@@ -19,6 +20,8 @@ public class MainMenuHider : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            PlayerPrefs.SetString("music", musicValue);
+            PlayerPrefs.Save();
             MainMenu.SetActive(false);
             StartCanvas.SetActive(true);
             Debug.Log("Player collide");
@@ -29,6 +32,8 @@ public class MainMenuHider : MonoBehaviour
     {
         if (StartCanvas != null)
         {
+            PlayerPrefs.SetString("music", musicValue);
+            PlayerPrefs.Save();
             MainMenu.SetActive(false);
             StartCanvas.SetActive(true);
         }

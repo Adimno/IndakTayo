@@ -30529,6 +30529,7 @@ Transform:
   - {fileID: 1166986214}
   - {fileID: 229181746}
   - {fileID: 1758765130}
+  - {fileID: 951215784}
   - {fileID: 809965249}
   - {fileID: 1242923154}
   - {fileID: 167017551}
@@ -68094,6 +68095,54 @@ Transform:
   - {fileID: 1533467527}
   m_Father: {fileID: 194718545}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &951215783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 951215784}
+  - component: {fileID: 951215785}
+  m_Layer: 0
+  m_Name: StageShow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &951215784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951215783}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.945307, y: 7.462387, z: 2.3233056}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 441667090}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &951215785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951215783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1da2f68af09a7aa439965df1784f7963, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConcertStage: {fileID: 2000370074}
+  VillageStage: {fileID: 1010384621}
+  BallroomStage: {fileID: 679741129}
+  stage: 
 --- !u!1 &951475475
 GameObject:
   m_ObjectHideFlags: 0
@@ -145055,7 +145104,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2000370075
 Transform:
   m_ObjectHideFlags: 0
