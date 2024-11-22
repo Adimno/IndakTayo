@@ -533,7 +533,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 76710132}
+      - m_Target: {fileID: 1056142730}
         m_TargetAssemblyTypeName: MainMenuHider, Assembly-CSharp
         m_MethodName: HideCanvas
         m_Mode: 1
@@ -592,12 +592,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 76710127}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ba4e12f0b0883d4f9e206ea83488ae8, type: 3}
+  m_Script: {fileID: 11500000, guid: 201496f9b89acce4faaf7dc3a57c99a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartCanvas: {fileID: 62156159}
-  MainMenu: {fileID: 487504945}
-  musicValue: Jotabal
+  musicValues: Jotabal
 --- !u!1 &81538206
 GameObject:
   m_ObjectHideFlags: 0
@@ -2532,7 +2530,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 578357576}
+      - m_Target: {fileID: 1056142730}
         m_TargetAssemblyTypeName: MainMenuHider, Assembly-CSharp
         m_MethodName: HideCanvas
         m_Mode: 1
@@ -2591,12 +2589,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 578357571}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ba4e12f0b0883d4f9e206ea83488ae8, type: 3}
+  m_Script: {fileID: 11500000, guid: 201496f9b89acce4faaf7dc3a57c99a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartCanvas: {fileID: 62156159}
-  MainMenu: {fileID: 487504945}
-  musicValue: Polkabal
+  musicValues: Polkabal
 --- !u!1001 &620653816
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4938,7 +4934,7 @@ GameObject:
   - component: {fileID: 1056142728}
   - component: {fileID: 1056142727}
   - component: {fileID: 1056142726}
-  - component: {fileID: 1056142725}
+  - component: {fileID: 1056142730}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -4968,18 +4964,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.30408, y: -0.074994}
   m_SizeDelta: {x: 1125.817, y: 802.8892}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1056142725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1056142723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bb594aab5106fb43b01b0e580c37498, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1056142726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5066,6 +5050,21 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1056142730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056142723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba4e12f0b0883d4f9e206ea83488ae8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartCanvas: {fileID: 62156159}
+  MainMenu: {fileID: 487504945}
+  setMusicValue: {fileID: 0}
 --- !u!1 &1099185056
 GameObject:
   m_ObjectHideFlags: 0
@@ -6768,7 +6767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartCanvas: {fileID: 925914683}
   MainMenu: {fileID: 986359167}
-  musicValue: 
+  setMusicValue: {fileID: 0}
 --- !u!1 &1442682936
 GameObject:
   m_ObjectHideFlags: 0
@@ -7589,7 +7588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartCanvas: {fileID: 487504945}
   MainMenu: {fileID: 986359167}
-  musicValue: 
+  setMusicValue: {fileID: 0}
 --- !u!1 &1741570012
 GameObject:
   m_ObjectHideFlags: 0
@@ -7772,6 +7771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageValue: Concert
+  mainMenuHider: {fileID: 1056142730}
 --- !u!1 &1780592806
 GameObject:
   m_ObjectHideFlags: 0
@@ -8072,6 +8072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageValue: Ballroom
+  mainMenuHider: {fileID: 1056142730}
 --- !u!1 &1815562494
 GameObject:
   m_ObjectHideFlags: 0
@@ -9640,6 +9641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageValue: Village
+  mainMenuHider: {fileID: 1056142730}
 --- !u!1 &2023748660
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,12 +7,12 @@ public class StageShow : MonoBehaviour
     public GameObject ConcertStage;
     public GameObject VillageStage;
     public GameObject BallroomStage;
-    public string stage;
+    private SceneLoadStage stageValue;
 
     // Update is called once per frame
     void Update()
     {
-        stage = PlayerPrefs.GetString("stage");
+        string stage = stageValue.GetStageValue();
 
         if(stage == "Concert"){
             ConcertStage.SetActive(true);

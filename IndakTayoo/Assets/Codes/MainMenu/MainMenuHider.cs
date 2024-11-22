@@ -6,21 +6,25 @@ public class MainMenuHider : MonoBehaviour
 {
     public GameObject StartCanvas;
     public GameObject MainMenu;
-    public string musicValue;
+    private SetMusic setMusicValue;
+
+
+    // Getter for musicValue
+    public string MusicValue
+    {
+        get { return setMusicValue.MusicValue; }
+    }
 
     void Start()
     {
-      StartCanvas.SetActive(false);
-
+        StartCanvas.SetActive(false);
     }
-
- 
 
     public void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            PlayerPrefs.SetString("music", musicValue);
+            PlayerPrefs.SetString("music", setMusicValue.MusicValue);
             PlayerPrefs.Save();
             MainMenu.SetActive(false);
             StartCanvas.SetActive(true);
@@ -32,11 +36,10 @@ public class MainMenuHider : MonoBehaviour
     {
         if (StartCanvas != null)
         {
-            PlayerPrefs.SetString("music", musicValue);
+            PlayerPrefs.SetString("music", setMusicValue.MusicValue);
             PlayerPrefs.Save();
             MainMenu.SetActive(false);
             StartCanvas.SetActive(true);
         }
     }
-
 }
