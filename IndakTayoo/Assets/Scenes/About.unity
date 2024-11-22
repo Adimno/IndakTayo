@@ -1432,9 +1432,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4953350387226774419, guid: 84ec2b967e67c3545978b3592e7d5a6b, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 171348790}
-    - targetCorrespondingSourceObject: {fileID: 4953350387226774419, guid: 84ec2b967e67c3545978b3592e7d5a6b, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 171348791}
   m_SourcePrefab: {fileID: 100100000, guid: 84ec2b967e67c3545978b3592e7d5a6b, type: 3}
 --- !u!4 &171348789 stripped
@@ -1442,20 +1439,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8675207929583311146, guid: 84ec2b967e67c3545978b3592e7d5a6b, type: 3}
   m_PrefabInstance: {fileID: 171348788}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &171348790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 14274818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc42e6174691cc74082073a025e636e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GrabDress: {fileID: 1438463476}
-  AssetDress: {fileID: 1451337812}
 --- !u!65 &171348791
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2829,7 +2812,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8965169561716255598, guid: 1e0bbc9378659e54ea1d9301f710d820, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4041,6 +4024,7 @@ MonoBehaviour:
   AssetDresses:
   - {fileID: 1451337812}
   - {fileID: 415314727}
+  RestoreDressCode: {fileID: 575364344}
 --- !u!1 &505280169
 GameObject:
   m_ObjectHideFlags: 0
@@ -4601,13 +4585,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6833039065917537396, guid: 4734bfe71ac70704fad711506a6de05b, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 575364341}
-    - targetCorrespondingSourceObject: {fileID: 6833039065917537396, guid: 4734bfe71ac70704fad711506a6de05b, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 575364340}
     - targetCorrespondingSourceObject: {fileID: 6833039065917537396, guid: 4734bfe71ac70704fad711506a6de05b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 575364342}
+    - targetCorrespondingSourceObject: {fileID: 6833039065917537396, guid: 4734bfe71ac70704fad711506a6de05b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 575364344}
   m_SourcePrefab: {fileID: 100100000, guid: 4734bfe71ac70704fad711506a6de05b, type: 3}
 --- !u!1 &575364339 stripped
 GameObject:
@@ -4641,23 +4625,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &575364341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 575364339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 0
-  m_snapOrientation: 0
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
 --- !u!65 &575364342
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4679,6 +4646,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.41750377, y: 1.4778373, z: 0.37821054}
   m_Center: {x: -0.012658971, y: 0.79642427, z: -0.07124427}
+--- !u!114 &575364344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575364339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8dd3f41cc00cba41bb357ade297d20f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GrabDressPrefab: {fileID: 575364339}
+  AssetDress: {fileID: 415314727}
 --- !u!1 &618050276
 GameObject:
   m_ObjectHideFlags: 0
@@ -10852,13 +10833,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8199049947629446246, guid: 6586b531302384a43978e4cddce66072, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1438463478}
-    - targetCorrespondingSourceObject: {fileID: 8199049947629446246, guid: 6586b531302384a43978e4cddce66072, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1438463477}
     - targetCorrespondingSourceObject: {fileID: 8199049947629446246, guid: 6586b531302384a43978e4cddce66072, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1438463480}
+    - targetCorrespondingSourceObject: {fileID: 8199049947629446246, guid: 6586b531302384a43978e4cddce66072, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1438463482}
   m_SourcePrefab: {fileID: 100100000, guid: 6586b531302384a43978e4cddce66072, type: 3}
 --- !u!1 &1438463476 stripped
 GameObject:
@@ -10892,23 +10873,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1438463478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1438463476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 0
-  m_snapOrientation: 0
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
 --- !u!65 &1438463480
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10930,6 +10894,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 56.487, y: 160.43097, z: 66.86757}
   m_Center: {x: -3.2032769, y: 71.86705, z: 11.994642}
+--- !u!114 &1438463482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438463476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8dd3f41cc00cba41bb357ade297d20f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GrabDressPrefab: {fileID: 1438463476}
+  AssetDress: {fileID: 1451337812}
 --- !u!1 &1451337812 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8199049947629446246, guid: 6586b531302384a43978e4cddce66072, type: 3}
@@ -12029,7 +12007,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1690209658
 Transform:
   m_ObjectHideFlags: 0
@@ -15187,9 +15165,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5386074145463584839, guid: fd62a0dbd2ff1db4a8fd4f40c5877cc8, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1964525265}
-    - targetCorrespondingSourceObject: {fileID: 5386074145463584839, guid: fd62a0dbd2ff1db4a8fd4f40c5877cc8, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1964525266}
     - targetCorrespondingSourceObject: {fileID: 7166573056958980364, guid: fd62a0dbd2ff1db4a8fd4f40c5877cc8, type: 3}
       insertIndex: -1
@@ -15263,20 +15238,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5386074145463584839, guid: fd62a0dbd2ff1db4a8fd4f40c5877cc8, type: 3}
   m_PrefabInstance: {fileID: 1964525259}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1964525265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1964525264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc42e6174691cc74082073a025e636e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GrabDress: {fileID: 575364339}
-  AssetDress: {fileID: 415314727}
 --- !u!65 &1964525266
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -14,7 +14,7 @@ public class ResetButtonDress : MonoBehaviour
 
     public GameObject[] GrabDresses;
     public GameObject[] AssetDresses;
-
+   public DressInputterAbout RestoreDressCode; 
     void Start()
     {
         sound = GetComponent<AudioSource>();
@@ -26,6 +26,7 @@ public class ResetButtonDress : MonoBehaviour
         {
             Debug.Log("Trigger Entered by Hand"); // Debugging
             ResetDresses();
+            RestoreDressCode.CloneActive();
         }
     }
 
