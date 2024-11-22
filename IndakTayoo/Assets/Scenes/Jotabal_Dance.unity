@@ -8551,6 +8551,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 134417222}
   m_Mesh: {fileID: 4300000, guid: 7dd4420a659042e488a252da7e05c987, type: 2}
+--- !u!1 &139464936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 139464937}
+  m_Layer: 0
+  m_Name: VillageScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &139464937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139464936}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.2252876, y: -0.6702578, z: 0.6702578, w: -0.2252876}
+  m_LocalPosition: {x: -33.55, y: 9.76, z: 16.64}
+  m_LocalScale: {x: 0.88498926, y: 1.7906032, z: 0.53498}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 441667090}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &140369960
 GameObject:
   m_ObjectHideFlags: 0
@@ -30369,7 +30400,9 @@ Transform:
   - {fileID: 459053379}
   - {fileID: 5032526559455905684}
   - {fileID: 4043759618193290683}
-  - {fileID: 889838958}
+  - {fileID: 1220674178}
+  - {fileID: 2134131554}
+  - {fileID: 139464937}
   - {fileID: 930527735}
   - {fileID: 229930372}
   - {fileID: 1916834820}
@@ -49317,7 +49350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 679741130}
   m_Layer: 0
-  m_Name: CASTLE STAGE
+  m_Name: BALLROOM STAGE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60050,12 +60083,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831731893}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.70710677, y: 0.00016656892, z: -0.00016656892, w: 0.70710677}
-  m_LocalPosition: {x: 0.0224, y: 5.8862, z: -1.64}
-  m_LocalScale: {x: 0.5955113, y: 1.2049009, z: 0.35998923}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 889838958}
+  m_Father: {fileID: 1220674178}
   m_LocalEulerAnglesHint: {x: 90, y: -1.056, z: -1.083}
 --- !u!328 &831731895
 VideoPlayer:
@@ -64304,77 +64337,6 @@ MonoBehaviour:
   Right: {fileID: 601807181}
   Left: {fileID: 1522938509}
   percent: {fileID: 1198934383}
---- !u!1 &889838957
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 889838958}
-  - component: {fileID: 889838959}
-  m_Layer: 0
-  m_Name: Cube.002_1_184
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &889838958
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889838957}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.7069363, z: -0, w: -0.7072773}
-  m_LocalPosition: {x: -9.26629, y: 3.2792034, z: 3.6617634}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 831731894}
-  - {fileID: 1549324186}
-  - {fileID: 1995333819}
-  m_Father: {fileID: 441667090}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!328 &889838959
-VideoPlayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889838957}
-  m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d9ed4bed93df8554fb2b28ecbdfdb891, type: 3}
-  m_TargetCameraAlpha: 1
-  m_TargetCamera3DLayout: 0
-  m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 0}
-  m_TimeReference: 0
-  m_TargetMaterialRenderer: {fileID: 0}
-  m_TargetMaterialProperty: <noninit>
-  m_RenderMode: 2
-  m_AspectRatio: 2
-  m_DataSource: 0
-  m_TimeUpdateMode: 2
-  m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
-  m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
-  m_Looping: 0
-  m_WaitForFirstFrame: 1
-  m_FrameReadyEventEnabled: 0
-  m_VideoShaders: []
 --- !u!1 &890634878
 GameObject:
   m_ObjectHideFlags: 0
@@ -67907,6 +67869,9 @@ MonoBehaviour:
   ConcertSkybox: {fileID: 459053378}
   VillageSkybox: {fileID: 7598850037214664600}
   BallroomSkybox: {fileID: 5292216653086883384}
+  screen: {fileID: 1220674177}
+  VillageScreen: {fileID: 139464936}
+  BallroomScreen: {fileID: 2134131553}
 --- !u!1 &951475475
 GameObject:
   m_ObjectHideFlags: 0
@@ -85481,6 +85446,40 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1220674177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1220674178}
+  m_Layer: 0
+  m_Name: Screen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1220674178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220674177}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.50000274, y: -0.49999726, z: 0.49999726, w: -0.50000274}
+  m_LocalPosition: {x: -8.55628, y: 9.165403, z: 3.6421058}
+  m_LocalScale: {x: 0.59551126, y: 1.2049009, z: 0.35998923}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1995333819}
+  - {fileID: 1549324186}
+  - {fileID: 831731894}
+  m_Father: {fileID: 441667090}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1223379924
 GameObject:
   m_ObjectHideFlags: 0
@@ -112256,12 +112255,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549324185}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.70710677, y: 0.00016656892, z: -0.00016656892, w: 0.70710677}
-  m_LocalPosition: {x: 0.0224, y: 5.8862, z: -1.64}
-  m_LocalScale: {x: 0.5955113, y: 1.2049009, z: 0.35998923}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 889838958}
+  m_Father: {fileID: 1220674178}
   m_LocalEulerAnglesHint: {x: 90, y: -1.056, z: -1.083}
 --- !u!64 &1549324187
 MeshCollider:
@@ -144197,12 +144196,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1995333818}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.70710677, y: 0.00016656892, z: -0.00016656892, w: 0.70710677}
-  m_LocalPosition: {x: 0.0224, y: 5.8862, z: -1.64}
-  m_LocalScale: {x: 0.5955113, y: 1.2049009, z: 0.35998923}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 889838958}
+  m_Father: {fileID: 1220674178}
   m_LocalEulerAnglesHint: {x: 90, y: -1.056, z: -1.083}
 --- !u!328 &1995333820
 VideoPlayer:
@@ -154981,6 +154980,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2134131553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2134131554}
+  m_Layer: 0
+  m_Name: BallroomScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2134131554
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134131553}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.50000274, y: -0.49999726, z: 0.49999726, w: -0.50000274}
+  m_LocalPosition: {x: -34.800003, y: 14.86, z: 3.6421058}
+  m_LocalScale: {x: 1.1666167, y: 2.3604212, z: 0.70522505}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 441667090}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2134295124
 GameObject:
   m_ObjectHideFlags: 0

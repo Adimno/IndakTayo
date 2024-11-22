@@ -11,20 +11,50 @@ public class StageShow : MonoBehaviour
     public GameObject VillageSkybox;
     public GameObject BallroomSkybox;
 
+    public GameObject screen;
+    public GameObject VillageScreen;
+    public GameObject BallroomScreen;
+
     // Update is called once per frame
     void Update()
     {
         string stage = PlayerPrefs.GetString("stage");
 
-        if (stage == "Concert"){
+        if (stage == "Concert")
+        {
             ConcertStage.SetActive(true);
             ConcertSkybox.SetActive(true);
-        } else if(stage == "Village"){
+        }
+        else if (stage == "Village")
+        {
             VillageStage.SetActive(true);
             VillageSkybox.SetActive(true);
-        } else if(stage == "Ballroom"){
+            if (VillageScreen != null)
+            {
+                screen.transform.position = VillageScreen.transform.position; // Copy position
+                screen.transform.rotation = VillageScreen.transform.rotation; // Copy rotation
+                screen.transform.localScale = VillageScreen.transform.localScale; // Copy scale
+            }
+            else
+            {
+                Debug.LogWarning("VillageScreen is not assigned in the Inspector!");
+            }
+
+        }
+        else if (stage == "Ballroom")
+        {
             BallroomStage.SetActive(true);
             BallroomSkybox.SetActive(true);
+            if (BallroomScreen != null)
+            {
+                screen.transform.position = BallroomScreen.transform.position; // Copy position
+                screen.transform.rotation = BallroomScreen.transform.rotation; // Copy rotation
+                screen.transform.localScale = BallroomScreen.transform.localScale; // Copy scale
+            }
+            else
+            {
+                Debug.LogWarning("BallroomScreen is not assigned in the Inspector!");
+            }
         }
     }
 }
