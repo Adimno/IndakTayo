@@ -12,6 +12,7 @@ public class StepChecker : MonoBehaviour
     public AudioSource correct;
     public AudioSource wrong;
     public GameObject wrongDetector;
+    public ErrorCounter counter;
 
     private bool hasTriggered = false; // Flag to ensure actions run only once
 
@@ -57,6 +58,11 @@ public class StepChecker : MonoBehaviour
             if (Array.Exists(boolArray, element => element == false))
             {
                 wrong.Play();
+                counter.Increment();
+            }
+            else
+            {
+                counter.Reset();
             }
         }
 
