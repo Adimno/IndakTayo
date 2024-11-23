@@ -54,7 +54,6 @@ public class StepChecker : MonoBehaviour
     {
         if (other.gameObject == wrongDetector)
         {
-            Debug.Log("banggaan");
             if (Array.Exists(boolArray, element => element == false))
             {
                 wrong.Play();

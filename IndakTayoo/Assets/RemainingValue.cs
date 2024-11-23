@@ -7,12 +7,14 @@ public class RemainingValue : MonoBehaviour
 {
     public TextMeshProUGUI RemainingText; // Assign in Inspector
     public GameObject ButtonAttempts;
+    public GameObject NextButton;
     public GameObject TextAttempts;
-
+    public TaskPercentage percent; 
     void Update()
     {
         int attemptsToPass = PlayerPrefs.GetInt("attempts");
         int remaining = 3 - attemptsToPass;
+        int percentValue = percent.TaskPercentageValue;
 
         if (remaining < 0)
         {
@@ -21,17 +23,21 @@ public class RemainingValue : MonoBehaviour
 
         RemainingText.text = remaining.ToString();
 
-
-
-        if (remaining == 0)
+        if (percentValue < 100)
         {
-            ButtonAttempts.SetActive(false);
-            TextAttempts.SetActive(true);
+            if (remaining == 0)
+            {
+                ButtonAttempts.SetActive(false);
+                TextAttempts.SetActive(true);
+            }
+            else
+            {
+                ButtonAttempts.SetActive(true);
+            }
         }
         else
         {
-            ButtonAttempts.SetActive(true);
-            TextAttempts.SetActive(false);
+            NextButton.SetActive(true);
         }
     }
 
