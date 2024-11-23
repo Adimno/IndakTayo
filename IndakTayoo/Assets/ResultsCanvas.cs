@@ -11,6 +11,12 @@ public class ResultsCanvas : MonoBehaviour
         StartCoroutine(LoadScene("Jotabal_Dance"));
     }
 
+    public void Next()
+    {
+        attempts.ResetAttempts();
+        StartCoroutine(LoadScene("Jotabal_Dance"));
+    }
+
     public void MoveToMain_Menu()
     {
         StartCoroutine(LoadScene("MainMenu"));
