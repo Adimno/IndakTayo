@@ -9,7 +9,7 @@ public class TimerWatch : MonoBehaviour
     public bool startTimer = false;  // Set to true to start the timer
     public bool isPaused = false;    // Set to true to pause the timer
 
-    private float elapsedTime = 0f;
+    public float elapsedTime = 0f;
     private float targetTime = 4 * 60 + 45; // Target time in seconds (4 minutes 45 seconds)
 
     void Update()
@@ -39,10 +39,15 @@ public class TimerWatch : MonoBehaviour
         isPaused = false;
     }
 
-    void UpdateTimerDisplay(float time)
+    public void UpdateTimerDisplay(float time)
     {
         int minutes = Mathf.FloorToInt(time / 60);
         int seconds = Mathf.FloorToInt(time % 60);
         timerText.text = $"{minutes:D2}:{seconds:D2}";
+    }
+
+    public float GetElapsedTime()
+    {
+        return elapsedTime;
     }
 }
