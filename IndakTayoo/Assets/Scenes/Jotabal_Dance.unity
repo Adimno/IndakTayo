@@ -685,6 +685,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &6877201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -929,6 +930,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &11135331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2644,6 +2646,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &34045732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2873,6 +2876,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &34924673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3034,6 +3038,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &35760429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3694,6 +3699,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &49989227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3809,12 +3815,12 @@ GameObject:
   - component: {fileID: 55414647}
   - component: {fileID: 55414646}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Wrong
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &55414642
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3877,7 +3883,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b79ecda59b452734fa5b6147ec916923, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4485,6 +4491,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &64747936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4646,6 +4653,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &65371699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5037,6 +5045,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &74569560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6328,6 +6337,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &92412279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7582,6 +7592,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &116000029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9727,6 +9738,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &154329411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9888,6 +9900,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &154863817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11073,6 +11086,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &167688133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13579,6 +13593,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &216855948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14338,6 +14353,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &227484684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15155,6 +15171,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &234176787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15614,6 +15631,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &237699438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15807,6 +15825,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &239579193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15968,6 +15987,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &240022820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16129,6 +16149,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &242741985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16290,6 +16311,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &243097739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16831,6 +16853,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &252093744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17076,6 +17099,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &255592642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17462,6 +17486,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &258241438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18385,6 +18410,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &269229237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19193,6 +19219,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &280890343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19924,6 +19951,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &289565672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20920,6 +20948,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &308557746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21742,6 +21771,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &319497674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22736,6 +22766,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &330707190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23116,6 +23147,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &336556367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23309,6 +23341,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &336719610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23538,6 +23571,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &339785363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24249,6 +24283,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &352549996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25215,6 +25250,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &365349971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25376,6 +25412,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &367128989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25887,6 +25924,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &376533256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26379,6 +26417,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &380881197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27153,6 +27192,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &396905282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27743,6 +27783,140 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1.3243147, z: 1.7888266}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &402198054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 402198055}
+  - component: {fileID: 402198058}
+  - component: {fileID: 402198057}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &402198055
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402198054}
+  m_LocalRotation: {x: 0.6971007, y: -0.008329242, z: 0.0011919138, w: 0.7169239}
+  m_LocalPosition: {x: 0, y: 0, z: -0.5}
+  m_LocalScale: {x: 0.098439, y: 0.098439, z: 0.098439}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 951509125}
+  m_LocalEulerAnglesHint: {x: 88.293, y: -20.187, z: -19.416}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 6.2, y: 0.07}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &402198057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402198054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Perfect
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 25
+  m_fontSizeBase: 25
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &402198058
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402198054}
+  m_CullTransparentMesh: 1
 --- !u!1 &402388792
 GameObject:
   m_ObjectHideFlags: 0
@@ -28118,6 +28292,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &405354310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28718,6 +28893,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &412939626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30185,16 +30361,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 426434533}
-  m_LocalRotation: {x: 0.6971475, y: -0.0020342688, z: 0.0076655056, w: 0.7168838}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalRotation: {x: 0.6971007, y: -0.008329242, z: 0.0011919138, w: 0.7169239}
+  m_LocalPosition: {x: 0, y: 0, z: -0.5}
   m_LocalScale: {x: 0.098439, y: 0.098439, z: 0.098439}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 55414642}
-  m_LocalEulerAnglesHint: {x: 88.337, y: 15.532, z: 16.318}
+  m_LocalEulerAnglesHint: {x: 88.293, y: -20.187, z: -19.416}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.6, y: 0.12}
+  m_AnchoredPosition: {x: 6.2, y: 0.07}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &426434535
@@ -30217,7 +30393,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: test
+  m_text: Wrong
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -30244,8 +30420,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -30582,6 +30758,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &430034486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31854,6 +32031,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &459170271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32629,6 +32807,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &471932446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33356,6 +33535,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &484978581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33764,6 +33944,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &489188606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34469,6 +34650,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &498079002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35283,6 +35465,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &503439539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35595,6 +35778,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &505487661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35756,6 +35940,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &506392401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35917,6 +36102,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &507193425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36230,6 +36416,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &510591923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36888,6 +37075,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &522587901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38685,6 +38873,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &541096295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39652,6 +39841,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &552736643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39878,6 +40068,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &554970540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40605,6 +40796,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &563017824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40834,6 +41026,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &570600685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41129,6 +41322,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &570807144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41290,6 +41484,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &571411693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41451,6 +41646,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &572399429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41612,6 +41808,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &573299149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43197,6 +43394,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &589723354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45985,6 +46183,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &621938209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47093,6 +47292,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &640238235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48064,6 +48264,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &654018109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49517,6 +49718,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &674569070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49678,6 +49880,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &675359247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49939,6 +50142,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &677731700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51620,6 +51824,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &708525621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52110,6 +52315,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &712444296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53823,6 +54029,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &736321228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54283,6 +54490,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &739041248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55001,6 +55209,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &745682807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55482,6 +55691,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &747807223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56560,6 +56770,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &766767804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57136,6 +57347,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &781581831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57297,6 +57509,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &782134969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58025,6 +58238,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &788261382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58323,6 +58537,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &792182014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59516,6 +59731,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &806673974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61704,6 +61920,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &841579400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62512,6 +62729,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &850402878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63211,6 +63429,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &860904127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63576,6 +63795,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &863748349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64298,6 +64518,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &875882483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65413,6 +65634,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &889165731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67334,6 +67556,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &926984998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67495,6 +67718,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &927642296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68615,6 +68839,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &945896568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68776,6 +69001,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &946596867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69319,6 +69545,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &951475478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69419,6 +69646,150 @@ MonoBehaviour:
   Right: {fileID: 601807181}
   Left: {fileID: 1522938509}
   percent: {fileID: 1198934383}
+--- !u!1 &951509124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 951509125}
+  - component: {fileID: 951509130}
+  - component: {fileID: 951509129}
+  - component: {fileID: 951509128}
+  - component: {fileID: 951509127}
+  - component: {fileID: 951509126}
+  m_Layer: 0
+  m_Name: Perfect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &951509125
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951509124}
+  m_LocalRotation: {x: -0.7037736, y: -0.06857648, z: -0.06857648, w: 0.7037736}
+  m_LocalPosition: {x: 0, y: 0, z: -1.533248}
+  m_LocalScale: {x: 0.053480066, y: 0.107280016, z: 0.03793502}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 402198055}
+  m_Father: {fileID: 981052301270470184}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -11.131}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.12131263, y: -0.23769999}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &951509126
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951509124}
+  m_CullTransparentMesh: 1
+--- !u!223 &951509127
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951509124}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!64 &951509128
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951509124}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &951509129
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951509124}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 699343e019ad9db43bb1e2502cf70d0e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &951509130
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951509124}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &951900692
 GameObject:
   m_ObjectHideFlags: 0
@@ -70027,6 +70398,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &962328721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71659,6 +72031,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &987198755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74524,6 +74897,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1023923591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75370,6 +75744,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1037507108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76516,6 +76891,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1057759863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77539,6 +77915,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1074512797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78936,6 +79313,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1096476656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79267,6 +79645,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1099289288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80423,6 +80802,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1124627154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80667,6 +81047,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1125054694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82236,6 +82617,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1147740387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83704,6 +84086,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1168323261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85592,6 +85975,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1194314113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86246,6 +86630,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1203123994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86954,6 +87339,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1214710043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87349,6 +87735,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1224588857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87809,6 +88196,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1228285882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88038,6 +88426,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1229129469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88274,6 +88663,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1231569598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88619,6 +89009,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1236673904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91406,6 +91797,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1268492109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91786,6 +92178,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1276156500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92640,6 +93033,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1284005381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93490,6 +93884,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1295751807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94121,6 +94516,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1303311926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94414,6 +94810,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1311172164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95062,6 +95459,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1317769706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96067,6 +96465,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1330639306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96228,6 +96627,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1331398382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97322,6 +97722,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1347883838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97483,6 +97884,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1348951367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97644,6 +98046,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1352491646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98202,6 +98605,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1358255036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100588,6 +100992,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1388459473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101941,6 +102346,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1404719981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102322,6 +102728,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1409902646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102583,6 +102990,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1412859197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103702,7 +104110,7 @@ SpriteRenderer:
   m_Size: {x: 6.4, y: 3.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1435196906
@@ -104024,6 +104432,149 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1.3243147, z: 1.7888266}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1438796355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1438796356}
+  - component: {fileID: 1438796361}
+  - component: {fileID: 1438796360}
+  - component: {fileID: 1438796359}
+  - component: {fileID: 1438796358}
+  - component: {fileID: 1438796357}
+  m_Layer: 0
+  m_Name: Nothing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1438796356
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438796355}
+  m_LocalRotation: {x: -0.7037736, y: -0.06857648, z: -0.06857648, w: 0.7037736}
+  m_LocalPosition: {x: 0, y: 0, z: -1.533248}
+  m_LocalScale: {x: 0.053480066, y: 0.107280016, z: 0.03793502}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 981052301270470184}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -11.131}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.12131263, y: -0.23769999}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1438796357
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438796355}
+  m_CullTransparentMesh: 1
+--- !u!223 &1438796358
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438796355}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!64 &1438796359
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438796355}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1438796360
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438796355}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0e539b3b3a3035c4d9be401d8636cb97, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1438796361
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438796355}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1440063083
 GameObject:
   m_ObjectHideFlags: 0
@@ -104085,6 +104636,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1440063086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104412,6 +104964,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1443308387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104793,6 +105346,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1446821781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105054,6 +105608,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1448901355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106019,6 +106574,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1466426765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106959,6 +107515,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1480606260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108006,6 +108563,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1489999552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108386,6 +108944,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1491095046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109241,6 +109800,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1509641800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110216,6 +110776,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1513914904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113315,6 +113876,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1538858935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115168,6 +115730,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1562300569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115894,6 +116457,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1572414933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118632,6 +119196,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1606685092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118825,6 +119390,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1610054883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118986,6 +119552,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1611210091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119147,6 +119714,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1611416360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119858,6 +120426,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1624883390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121626,6 +122195,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1647728254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121930,6 +122500,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1649433080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -122227,6 +122798,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1652740747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123198,6 +123770,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1669057119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124319,6 +124892,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1690991816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124719,6 +125293,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1693372001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125366,6 +125941,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1704962500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125595,6 +126171,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1705683626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125824,6 +126401,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1708852140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127701,6 +128279,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1733337943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128007,6 +128586,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1734364806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129246,6 +129826,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1747160743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130492,6 +131073,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1771717726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131381,6 +131963,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1780946597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131542,6 +132125,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1785031859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131840,6 +132424,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1786785568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132169,6 +132754,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1793170779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132330,6 +132916,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1793683041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132591,6 +133178,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1796563015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133376,6 +133964,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1816073249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134415,6 +135004,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1830860316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135131,6 +135721,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1840603184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136166,6 +136757,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1851677101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136327,6 +136919,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1852510259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138391,6 +138984,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1883516555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139240,6 +139834,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1886961961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139850,6 +140445,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1904140424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142315,6 +142911,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1936594959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142660,6 +143257,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1938321757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142921,6 +143519,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1941189730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143197,6 +143796,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1944716774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144110,6 +144710,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1964806580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144507,6 +145108,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1967171136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145237,6 +145839,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1976062936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145697,6 +146300,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1982976001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145858,6 +146462,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1983918616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146807,6 +147412,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &1997842475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147531,6 +148137,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &2003753066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147775,6 +148382,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &2004904924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148626,6 +149234,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &2012605145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148871,6 +149480,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &2014192283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149032,6 +149642,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &2015970549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150072,6 +150683,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &2031576211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150233,6 +150845,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &2031855409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151101,6 +151714,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &2047857755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152488,6 +153102,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &2066811722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153327,6 +153942,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &2074292437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153488,6 +154104,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &2074855593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154805,6 +155422,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &2095463710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155206,7 +155824,7 @@ SpriteRenderer:
   m_Size: {x: 6.4, y: 3.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2097654783
@@ -156499,6 +157117,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &2109580622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157269,6 +157888,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &2123161309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157799,6 +158419,7 @@ MonoBehaviour:
   wrong: {fileID: 1360217174}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
+  indicator: {fileID: 981052301270470186}
 --- !u!114 &2134295127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161391,6 +162012,7 @@ GameObject:
   m_Component:
   - component: {fileID: 981052301270470184}
   - component: {fileID: 981052301270470185}
+  - component: {fileID: 981052301270470186}
   m_Layer: 0
   m_Name: Fly_tvwoman_head
   m_TagString: Untagged
@@ -161559,7 +162181,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1438796356}
   - {fileID: 55414642}
+  - {fileID: 951509125}
   - {fileID: 8457086185226253116}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -93.476, z: 0}
@@ -161578,6 +162202,21 @@ MonoBehaviour:
   TV: {fileID: 828254452009799696}
   floatSpeed: 1
   floatAmplitude: 0.5
+--- !u!114 &981052301270470186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828254452009799696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8588854da44c7d740b8c962dc7a8aeaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Wrong: {fileID: 55414641}
+  Perfect: {fileID: 951509124}
+  Nothing: {fileID: 1438796355}
 --- !u!4 &1035513369703502627
 Transform:
   m_ObjectHideFlags: 0
