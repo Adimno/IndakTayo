@@ -13,7 +13,7 @@ public class StepChecker : MonoBehaviour
     public AudioSource wrong;
     public GameObject wrongDetector;
     public ErrorCounter counter;
-
+    public WrongIndicator indicator;
     private bool hasTriggered = false; // Flag to ensure actions run only once
 
     void Update()
@@ -58,10 +58,12 @@ public class StepChecker : MonoBehaviour
             {
                 wrong.Play();
                 counter.Increment();
+                indicator.ShowWrong();
             }
             else
             {
                 counter.Reset();
+                indicator.ShowPerfect();
             }
         }
 
