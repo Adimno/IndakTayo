@@ -42,7 +42,7 @@ public class ScorePointsOverlay : MonoBehaviour
 
         if (percentageText != null && taskPercentageScript != null)
         {
-            percentageText.text = $"{taskPercentageScript.TaskPercentageValue} %";
+            percentageText.text = $"{taskPercentageScript.TaskPercentageValue}% Percentage";
         }
     }
 }
