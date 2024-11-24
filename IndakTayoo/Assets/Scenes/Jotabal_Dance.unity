@@ -27229,6 +27229,7 @@ GameObject:
   - component: {fileID: 399907632}
   - component: {fileID: 399907631}
   - component: {fileID: 399907634}
+  - component: {fileID: 399907635}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -27339,6 +27340,20 @@ MonoBehaviour:
   MusicEasy: {fileID: 402388792}
   MusicAverage: {fileID: 1111712170}
   MusicHard: {fileID: 1254195184}
+--- !u!114 &399907635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399907628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 404f3f24204c6124899064444f095dbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Average: {fileID: 1526547892}
+  Hard: {fileID: 1535892093}
 --- !u!1 &400260463
 GameObject:
   m_ObjectHideFlags: 0
@@ -114092,6 +114107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attempts: {fileID: 1547702505}
+  difficulty: {fileID: 399907634}
 --- !u!1 &1568281638
 GameObject:
   m_ObjectHideFlags: 0
@@ -134800,7 +134816,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1566818322}
         m_TargetAssemblyTypeName: ResultsCanvas, Assembly-CSharp
-        m_MethodName: TryAgain
+        m_MethodName: Next
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
