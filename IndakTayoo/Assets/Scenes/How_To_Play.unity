@@ -8776,7 +8776,6 @@ GameObject:
   m_Component:
   - component: {fileID: 641951507}
   - component: {fileID: 641951508}
-  - component: {fileID: 641951509}
   m_Layer: 0
   m_Name: 2nd
   m_TagString: Untagged
@@ -8851,27 +8850,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &641951509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 641951506}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a19e42663a6f3484a8ef4e57e5a90e00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectsToMonitor:
-  - {fileID: 976996008}
-  - {fileID: 184863395}
-  - {fileID: 1789632642}
-  - {fileID: 479869123}
-  TurnOnCollider: {fileID: 840224229}
-  TurnOffFistCanvas: {fileID: 121485804}
-  IMUCanvas: {fileID: 1551075193}
-  IMUCanvas1: {fileID: 8651261}
 --- !u!1001 &647635801
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9096,7 +9074,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: IMU
+  m_text: Head Movement Guide
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
   m_sharedMaterial: {fileID: -9221056233183343877, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
@@ -10204,7 +10182,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Go to the IMU room and practice head movements with your Oculus device.
+  m_text: Go to the Head Movement room and practice head movements with your Oculus
+    device.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
   m_sharedMaterial: {fileID: -9221056233183343877, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
@@ -10304,7 +10283,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 19f37156bb99a8048ad6b1856eb95f09, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 54eef8b6a85feb54a8a014671ce4d759, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -11473,8 +11452,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Welcome to the Tutorial! here, you\u2019ll dive into the essentials of
     the game, mastering gameplay mechanics, controls, and learning all about the
-    IMU (Inertial Measurement Unit) for a more immersive experience. Get ready to
-    level up your skills and dominate the game!"
+    Head Movement for a more immersive experience. Get ready to level up your skills
+    and dominate the game!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
   m_sharedMaterial: {fileID: -9221056233183343877, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
@@ -16801,6 +16780,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100002, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1721932036}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1721932038}
   m_SourcePrefab: {fileID: 100100000, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
 --- !u!4 &1137274876 stripped
 Transform:
@@ -23876,6 +23858,30 @@ MonoBehaviour:
   textComponent1: {fileID: 978111454}
   textComponent2: {fileID: 1587391923}
   textComponent3: {fileID: 479869125}
+--- !u!114 &1721932038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137274880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19e42663a6f3484a8ef4e57e5a90e00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToMonitor:
+  - {fileID: 976996008}
+  - {fileID: 184863395}
+  - {fileID: 1789632642}
+  - {fileID: 479869123}
+  - {fileID: 978111452}
+  - {fileID: 1587391921}
+  - {fileID: 1032663674}
+  TurnOnCollider: {fileID: 840224229}
+  TurnOffFistCanvas: {fileID: 121485804}
+  IMUCanvas: {fileID: 1551075193}
+  IMUCanvas1: {fileID: 8651261}
 --- !u!1 &1741305850
 GameObject:
   m_ObjectHideFlags: 0
@@ -28592,7 +28598,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bcfdc5a45ab67e44a8630d44e1839ff4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5d5e5c643e09ecf489e357544b9ee1a8, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
