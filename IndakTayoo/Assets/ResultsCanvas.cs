@@ -45,10 +45,12 @@ public class ResultsCanvas : MonoBehaviour
             if (difficultyValue == "Easy")
             {
                 PlayerPrefs.SetInt("isAverage", 1); // Unlock Average difficulty
+                PlayerPrefs.SetInt("attempts", 0);
             }
             else if (difficultyValue == "Average")
             {
                 PlayerPrefs.SetInt("isHard", 1);   // Unlock Hard difficulty
+                PlayerPrefs.SetInt("attempts", 0);
             }
             PlayerPrefs.Save();
         }
