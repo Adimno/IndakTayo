@@ -7,6 +7,7 @@ public class ShowResults : MonoBehaviour
     public GameObject MaleWall;
     public GameObject FemaleWall;
     public GameObject ResultsCanvas;
+    public AudioSource Congratulations;
 
     void OnTriggerEnter(Collider other)
     {
@@ -19,6 +20,10 @@ public class ShowResults : MonoBehaviour
     IEnumerator ShowResultsWithDelay()
     {
         yield return new WaitForSeconds(2f);  // Wait for 2 seconds
+        if (!Congratulations.isPlaying) // Check if the sound isn't already playing
+            {
+                Congratulations.Play();
+            }
         ResultsCanvas.SetActive(true);         // Show the ResultsCanvas
     }
 }
