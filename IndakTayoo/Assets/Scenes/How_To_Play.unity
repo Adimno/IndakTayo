@@ -17644,6 +17644,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100002, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1721932038}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1721932040}
   m_SourcePrefab: {fileID: 100100000, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
 --- !u!4 &1137274876 stripped
 Transform:
@@ -21787,7 +21790,6 @@ GameObject:
   - component: {fileID: 1446371902}
   - component: {fileID: 1446371904}
   - component: {fileID: 1446371903}
-  - component: {fileID: 1446371905}
   m_Layer: 0
   m_Name: CanvasHTP
   m_TagString: Untagged
@@ -21862,24 +21864,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &1446371905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1446371901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ccf4f9d8d005d94fa9ee31f3a6631ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MainCanvasParent: {fileID: 1446371901}
-  MainChecklistParent: {fileID: 2071445354}
-  QuitCanvas: {fileID: 36391366}
-  textComponent1: {fileID: 978111454}
-  textComponent2: {fileID: 1587391923}
-  textComponent3: {fileID: 479869125}
 --- !u!1 &1458715779
 GameObject:
   m_ObjectHideFlags: 0
@@ -24992,7 +24976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccf4f9d8d005d94fa9ee31f3a6631ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MainCanvasParent: {fileID: 1446371901}
+  MainCanvasParent: {fileID: 1446371904}
   MainChecklistParent: {fileID: 2071445354}
   QuitCanvas: {fileID: 36391366}
   textComponent1: {fileID: 978111454}
@@ -25022,6 +25006,24 @@ MonoBehaviour:
   TurnOffFistCanvas: {fileID: 121485804}
   IMUCanvas: {fileID: 1551075193}
   IMUCanvas1: {fileID: 8651261}
+--- !u!114 &1721932040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137274880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ccf4f9d8d005d94fa9ee31f3a6631ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCanvasParent: {fileID: 1446371904}
+  MainChecklistParent: {fileID: 2071445354}
+  QuitCanvas: {fileID: 36391366}
+  textComponent1: {fileID: 978111454}
+  textComponent2: {fileID: 1587391923}
+  textComponent3: {fileID: 479869125}
 --- !u!1 &1741305850
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,7 +5,7 @@ using TMPro;
 
 public class HTPHideShowChecker : MonoBehaviour
 {
-    public GameObject MainCanvasParent;
+    public Canvas MainCanvasParent;
     public GameObject MainChecklistParent;
     public GameObject QuitCanvas; 
     public TextMeshProUGUI textComponent1; // Linked to GamePlayCanvas
@@ -16,7 +16,7 @@ public class HTPHideShowChecker : MonoBehaviour
     {
 
         // Check MovementCanvas independently
-        if (MainCanvasParent != null && !MainCanvasParent.activeSelf && textComponent1.color != null)
+        if (MainCanvasParent != null && !MainCanvasParent.enabled && textComponent1.color != null)
         {
             textComponent1.color = Color.green;
         }
