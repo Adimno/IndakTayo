@@ -48,7 +48,7 @@ public class HeadMovementLogic : MonoBehaviour
         }
 
         //YAW
-        //LOOK LEFT
+        //LOOK RIGHT
         else if (yRotation >= 100f && yRotation <= 110f)
         {
             if (textComponent3 != null)
@@ -57,7 +57,7 @@ public class HeadMovementLogic : MonoBehaviour
             }
         }
         //YAW
-        //LOOK RIGHT
+        //LOOK LEFT
         else if (yRotation >= 250f && yRotation <= 260f)
         {
             if (textComponent4!= null)
