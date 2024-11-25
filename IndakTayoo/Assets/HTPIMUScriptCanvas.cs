@@ -6,14 +6,20 @@ public class HTPIMUScriptCanvas : MonoBehaviour
 {
 
     public GameObject CongratsCanvas;
+    public StepShowHTP StopDanceHTP;  
+    public StepShowPolkabalHTP StopDancePolkabalHTP;
 
+  
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
+            StopDanceHTP.StopDance(other);
+            StopDancePolkabalHTP.StopDancePolkabal(other);
             StartCoroutine(ShowCongratsCanvasWithDelay());
         }
     }
+
 
     private IEnumerator ShowCongratsCanvasWithDelay()
     {

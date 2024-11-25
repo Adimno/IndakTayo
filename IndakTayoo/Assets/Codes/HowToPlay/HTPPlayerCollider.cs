@@ -9,15 +9,13 @@ public class HTPPlayerCollider : MonoBehaviour
     public GameObject DestroyCollider;
 
     public TextMeshProUGUI textComponent;
-    public StepShowHTP StepShowHTP;
     public GameObject DanceSteps; 
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            StepShowHTP.StartSequence(other);
-
+     
             DanceSteps.SetActive(true);
 
             Destroy(DestroyCollider);

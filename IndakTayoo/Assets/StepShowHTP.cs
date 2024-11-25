@@ -11,6 +11,8 @@ public class StepShowHTP : MonoBehaviour
     public GameObject targetObject4;
     public bool isStart = false;
 
+
+
     void Start()
     {
         // Ensure all target objects are initially hidden
@@ -23,20 +25,13 @@ public class StepShowHTP : MonoBehaviour
 
         // Ensure CountDown is hidden at the start
         if (CountDown != null) CountDown.SetActive(false);
+
     }
 
-    void Update()
+  
+    IEnumerator ShowObjectsWithCountDownJotabal()
     {
-        if (isStart)
-        {
-            // Start the sequence to show CountDown and activate objects after delay
-            StartCoroutine(ShowObjectsWithCountDown());
-            isStart = false;  // Prevent the coroutine from starting multiple times
-        }
-    }
-
-    IEnumerator ShowObjectsWithCountDown()
-    {
+        isStart = true;
         // Show the countdown
         if (CountDown != null) CountDown.SetActive(true);
 
@@ -55,11 +50,34 @@ public class StepShowHTP : MonoBehaviour
         if (targetObject4 != null) targetObject4.SetActive(false);
     }
 
-    public void StartSequence(Collider other)
+
+    public void JotabalDanceSteps()
+    {
+        StartCoroutine(ShowObjectsWithCountDownJotabal());
+      
+    }
+
+ 
+    public void StopDance(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            isStart = true;
+            StartCoroutine(StopDanceAfterDelay());
         }
+    }
+
+    private IEnumerator StopDanceAfterDelay()
+    {
+        yield return new WaitForSeconds(5f); // Wait for 2 seconds
+
+
+        isStart = false;
+
+        // Reset the state of objects
+        if (CountDown != null) CountDown.SetActive(false);
+        if (targetObject1 != null) targetObject1.SetActive(false);
+        if (targetObject2 != null) targetObject2.SetActive(false);
+        if (targetObject3 != null) targetObject3.SetActive(false);
+        if (targetObject4 != null) targetObject4.SetActive(false);
     }
 }
