@@ -10,7 +10,6 @@ public class StepChecker : MonoBehaviour
     public TotalPoints points;
     public TaskPercentage percent;
     public AudioSource correct;
-    public AudioSource wrong;
     public GameObject wrongDetector;
     public ErrorCounter counter;
     public WrongIndicator indicator;
@@ -56,7 +55,6 @@ public class StepChecker : MonoBehaviour
         {
             if (Array.Exists(boolArray, element => element == false))
             {
-                wrong.Play();
                 counter.Increment();
                 indicator.ShowWrong();
             }
