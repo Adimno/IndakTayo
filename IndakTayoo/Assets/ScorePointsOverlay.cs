@@ -32,17 +32,17 @@ public class ScorePointsOverlay : MonoBehaviour
             float elapsedTime = timerWatchScript.GetElapsedTime();
             int minutes = Mathf.FloorToInt(elapsedTime / 60);
             int seconds = Mathf.FloorToInt(elapsedTime % 60);
-            timeText.text = $"{minutes:D2}:{seconds:D2}";
+            timeText.text = $"Time: {minutes:D2}:{seconds:D2}";
         }
 
         if (pointsText != null && totalPointsScript != null)
         {
-            pointsText.text = $"{totalPointsScript.Points} Points";
+            pointsText.text = $"Score: {totalPointsScript.Points} Points";
         }
 
         if (percentageText != null && taskPercentageScript != null)
         {
-            percentageText.text = $"{taskPercentageScript.TaskPercentageValue}% Percentage";
+            percentageText.text = $"Percentage: {taskPercentageScript.TaskPercentageValue}%";
         }
     }
 }
