@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class StepShowHTP : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class StepShowHTP : MonoBehaviour
     public GameObject targetObject2;
     public GameObject targetObject3;
     public GameObject targetObject4;
+    public Button[] ButtonsChoose;
+    public GameObject StepsCanvas;
     public bool isStart = false;
 
 
@@ -53,6 +56,23 @@ public class StepShowHTP : MonoBehaviour
 
     public void JotabalDanceSteps()
     {
+        if (ButtonsChoose != null && ButtonsChoose.Length > 0)
+        {
+            foreach (Button button in ButtonsChoose)
+            {
+                if (button != null)
+                {
+                    button.interactable = false; // Disable the button
+                }
+            }
+        }
+        else
+        {
+            Debug.LogWarning("FinishStepsCanvas array is either null or empty.");
+        }
+
+        StepsCanvas.SetActive(true);
+
         StartCoroutine(ShowObjectsWithCountDownJotabal());
       
     }

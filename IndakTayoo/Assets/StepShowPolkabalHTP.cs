@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class StepShowPolkabalHTP : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class StepShowPolkabalHTP : MonoBehaviour
     public GameObject targetObject1Polkabal;
     public GameObject targetObject2Polkabal;
     public GameObject targetObject3Polkabal;
+    public Button[] ButtonsChoose;
+    public GameObject StepsCanvas;
 
     void Start()
     {
@@ -53,6 +56,22 @@ public class StepShowPolkabalHTP : MonoBehaviour
 
     public void PolkabalDanceSteps()
     {
+        if (ButtonsChoose != null && ButtonsChoose.Length > 0)
+        {
+            foreach (Button button in ButtonsChoose)
+            {
+                if (button != null)
+                {
+                    button.interactable = false; // Disable the button
+                }
+            }
+        }
+        else
+        {
+            Debug.LogWarning("FinishStepsCanvas array is either null or empty.");
+        }
+        StepsCanvas.SetActive(true);
+
         StartCoroutine(ShowObjectsWithCountDownPolkabal());
     }
 
