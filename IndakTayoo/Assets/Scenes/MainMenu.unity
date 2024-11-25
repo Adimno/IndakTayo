@@ -3203,7 +3203,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &487504946
 Transform:
   m_ObjectHideFlags: 0
@@ -6752,6 +6752,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageName: Concert
+  loadingScreen: {fileID: 1737854160}
+  loadingSlider: {fileID: 1038571820}
+  progressText: {fileID: 2004882335}
+  ScreenloadingSlider: {fileID: 590635724}
+  ScreenprogressText: {fileID: 33539595}
+  ScreenLoadingDisplay: {fileID: 1980970179}
 --- !u!1 &1082883999
 GameObject:
   m_ObjectHideFlags: 0
@@ -10110,6 +10116,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageName: Village
+  loadingScreen: {fileID: 1737854160}
+  loadingSlider: {fileID: 1038571820}
+  progressText: {fileID: 2004882335}
+  ScreenloadingSlider: {fileID: 590635724}
+  ScreenprogressText: {fileID: 33539595}
+  ScreenLoadingDisplay: {fileID: 1980970179}
 --- !u!1 &1680884787
 GameObject:
   m_ObjectHideFlags: 0
@@ -10256,6 +10268,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageName: Ballroom
+  loadingScreen: {fileID: 1737854160}
+  loadingSlider: {fileID: 1038571820}
+  progressText: {fileID: 2004882335}
+  ScreenloadingSlider: {fileID: 590635724}
+  ScreenprogressText: {fileID: 33539595}
+  ScreenLoadingDisplay: {fileID: 1980970179}
 --- !u!1 &1696246457
 GameObject:
   m_ObjectHideFlags: 0
@@ -10812,6 +10830,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageName: Concert
+  loadingScreen: {fileID: 1737854160}
+  loadingSlider: {fileID: 1038571820}
+  progressText: {fileID: 2004882335}
+  ScreenloadingSlider: {fileID: 590635724}
+  ScreenprogressText: {fileID: 33539595}
+  ScreenLoadingDisplay: {fileID: 1980970179}
 --- !u!1 &1794997699
 GameObject:
   m_ObjectHideFlags: 0
@@ -11111,7 +11135,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3597d062ce5549d46848e9a338d7ec9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stageName: Ballroom
+  stageName: Concert
+  loadingScreen: {fileID: 1737854160}
+  loadingSlider: {fileID: 1038571820}
+  progressText: {fileID: 2004882335}
+  ScreenloadingSlider: {fileID: 590635724}
+  ScreenprogressText: {fileID: 33539595}
+  ScreenLoadingDisplay: {fileID: 1980970179}
 --- !u!1 &1813997488
 GameObject:
   m_ObjectHideFlags: 0
@@ -13255,7 +13285,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3597d062ce5549d46848e9a338d7ec9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stageName: Village
+  stageName: Concert
+  loadingScreen: {fileID: 1737854160}
+  loadingSlider: {fileID: 1038571820}
+  progressText: {fileID: 2004882335}
+  ScreenloadingSlider: {fileID: 590635724}
+  ScreenprogressText: {fileID: 33539595}
+  ScreenLoadingDisplay: {fileID: 1980970179}
 --- !u!1 &2023748660
 GameObject:
   m_ObjectHideFlags: 0
