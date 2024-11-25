@@ -65395,6 +65395,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 884405572}
   m_Mesh: {fileID: 4300000, guid: c0a1ea62c9caa8545b43bd6eebceb5d0, type: 2}
+--- !u!1 &884412939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 884412940}
+  m_Layer: 0
+  m_Name: screenLoading
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &884412940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884412939}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &886828132
 GameObject:
   m_ObjectHideFlags: 0
@@ -99339,7 +99370,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1567dfefdbd9bee4386a99a8440647b9, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.303
+  m_Volume: 0.142
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -132129,7 +132160,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0d16a24f48821714cba1a03e96758169, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52c016e827dd36f409bded6528cf5a29, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -165823,3 +165854,4 @@ SceneRoots:
   - {fileID: 693663065}
   - {fileID: 678550758}
   - {fileID: 1551971656}
+  - {fileID: 884412940}
