@@ -1415,7 +1415,7 @@ GameObject:
   - component: {fileID: 82160443}
   - component: {fileID: 82160442}
   - component: {fileID: 82160441}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2441,7 +2441,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &121485806
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2635,7 +2635,7 @@ Transform:
   m_GameObject: {fileID: 131922912}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.036492757, z: -0, w: -0.9993339}
-  m_LocalPosition: {x: -2.943, y: 3.285, z: -6.356}
+  m_LocalPosition: {x: -2.524, y: 3.285, z: -6.383}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4544,7 +4544,7 @@ GameObject:
   - component: {fileID: 278719862}
   - component: {fileID: 278719864}
   - component: {fileID: 278719863}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4752,7 +4752,7 @@ GameObject:
   - component: {fileID: 296614041}
   - component: {fileID: 296614040}
   - component: {fileID: 296614039}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Step2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5115,7 +5115,7 @@ GameObject:
   - component: {fileID: 320862237}
   - component: {fileID: 320862236}
   - component: {fileID: 320862235}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Step4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7577,7 +7577,7 @@ GameObject:
   - component: {fileID: 514387038}
   - component: {fileID: 514387037}
   - component: {fileID: 514387036}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Step3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10861,7 +10861,7 @@ GameObject:
   - component: {fileID: 679218080}
   - component: {fileID: 679218079}
   - component: {fileID: 679218078}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11355,7 +11355,7 @@ GameObject:
   - component: {fileID: 684286835}
   - component: {fileID: 684286837}
   - component: {fileID: 684286836}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: check
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12311,7 +12311,7 @@ GameObject:
   - component: {fileID: 731383669}
   - component: {fileID: 731383671}
   - component: {fileID: 731383670}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: uncheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13285,7 +13285,7 @@ GameObject:
   - component: {fileID: 807905731}
   - component: {fileID: 807905730}
   - component: {fileID: 807905729}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13648,7 +13648,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8965169561716255598, guid: 1e0bbc9378659e54ea1d9301f710d820, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2052428506}
   m_SourcePrefab: {fileID: 100100000, guid: 1e0bbc9378659e54ea1d9301f710d820, type: 3}
 --- !u!1 &833218817
 GameObject:
@@ -15680,7 +15683,7 @@ GameObject:
   - component: {fileID: 990760084}
   - component: {fileID: 990760083}
   - component: {fileID: 990760082}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: percent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15902,7 +15905,7 @@ GameObject:
   - component: {fileID: 1000538173}
   - component: {fileID: 1000538175}
   - component: {fileID: 1000538174}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: uncheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19000,7 +19003,7 @@ GameObject:
   - component: {fileID: 1220414663}
   - component: {fileID: 1220414665}
   - component: {fileID: 1220414664}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: check
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19714,7 +19717,7 @@ GameObject:
   - component: {fileID: 1275947458}
   - component: {fileID: 1275947460}
   - component: {fileID: 1275947459}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22661,7 +22664,7 @@ GameObject:
   - component: {fileID: 1473485965}
   - component: {fileID: 1473485967}
   - component: {fileID: 1473485966}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: uncheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23424,7 +23427,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1551075194
 RectTransform:
   m_ObjectHideFlags: 0
@@ -25001,7 +25004,7 @@ GameObject:
   - component: {fileID: 1697827735}
   - component: {fileID: 1697827737}
   - component: {fileID: 1697827736}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: check
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25373,7 +25376,7 @@ GameObject:
   - component: {fileID: 1704693969}
   - component: {fileID: 1704693971}
   - component: {fileID: 1704693970}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26901,6 +26904,32 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &1825533154 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8965169561716255598, guid: 1e0bbc9378659e54ea1d9301f710d820, type: 3}
+  m_PrefabInstance: {fileID: 2130929162}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1825533156
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825533154}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.0473895, y: 1.284513, z: 1.1683952}
+  m_Center: {x: 1.0155118, y: 0.58438766, z: 0.5473818}
 --- !u!1 &1825789290
 GameObject:
   m_ObjectHideFlags: 0
@@ -27332,7 +27361,7 @@ GameObject:
   - component: {fileID: 1840139479}
   - component: {fileID: 1840139481}
   - component: {fileID: 1840139480}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: check
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27547,7 +27576,7 @@ GameObject:
   - component: {fileID: 1854658917}
   - component: {fileID: 1854658916}
   - component: {fileID: 1854658915}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Step1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28041,8 +28070,8 @@ Transform:
   m_GameObject: {fileID: 1891853987}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.4810314, y: -8.364036, z: -11.973417}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -4.4810314, y: -8.498, z: -11.524}
+  m_LocalScale: {x: 1, y: 1, z: 0.96232}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1901728298}
@@ -29657,6 +29686,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049135186}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2052428504 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8965169561716255598, guid: 1e0bbc9378659e54ea1d9301f710d820, type: 3}
+  m_PrefabInstance: {fileID: 832186639}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2052428506
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052428504}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.513297, y: 0.99354994, z: 1.1684839}
+  m_Center: {x: 1.1124941, y: 0.64474005, z: 0.49950245}
 --- !u!1 &2058561506
 GameObject:
   m_ObjectHideFlags: 0
@@ -29748,7 +29803,7 @@ GameObject:
   - component: {fileID: 2061886235}
   - component: {fileID: 2061886237}
   - component: {fileID: 2061886236}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: uncheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30640,7 +30695,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8965169561716255598, guid: 1e0bbc9378659e54ea1d9301f710d820, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1825533156}
   m_SourcePrefab: {fileID: 100100000, guid: 1e0bbc9378659e54ea1d9301f710d820, type: 3}
 --- !u!1 &2143779216
 GameObject:
