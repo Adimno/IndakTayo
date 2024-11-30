@@ -8,7 +8,6 @@ public class StepChecker : MonoBehaviour
     public bool[] boolArray = new bool[3] { false, false, false };
     public CheckUncheck checker;
     public TotalPoints points;
-    public TaskPercentage percent;
     public AudioSource correct;
     public GameObject wrongDetector;
     public ErrorCounter counter;
@@ -40,7 +39,6 @@ public class StepChecker : MonoBehaviour
             checker.SetCheckIconVisible(true);
             checker.SetUncheckIconVisible(false);
             points.IncrementPoints(10);
-            percent.IncrementTaskPercentage(1);
             correct.Play();
 
             hasTriggered = true; // Set the flag to true to prevent future triggers
