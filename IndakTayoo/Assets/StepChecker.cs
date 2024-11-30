@@ -38,7 +38,7 @@ public class StepChecker : MonoBehaviour
             Debug.Log("NICE");
             checker.SetCheckIconVisible(true);
             checker.SetUncheckIconVisible(false);
-            points.IncrementPoints(10);
+            points.IncrementPoints(1);
             correct.Play();
 
             hasTriggered = true; // Set the flag to true to prevent future triggers

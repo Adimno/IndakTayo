@@ -16,7 +16,7 @@ public class Obstacles : MonoBehaviour
     {
         if (!hasCollided && (other.gameObject == Head || other.gameObject == Right || other.gameObject == Left))
         {
-            points.DecrementPoints(10);
+            points.DecrementPoints(1);
             ObstacleSounds.Play();
             hasCollided = true;
         }
