@@ -16,7 +16,7 @@ public class DanceProgressHTP : MonoBehaviour
         if (!hasCollided && (other.gameObject == Head || other.gameObject == Right || other.gameObject == Left))
         {
             Debug.Log("MALI");
-            percent.IncrementTaskPercentage(25);
+            percent.IncrementTaskPercentage(20);
             hasCollided = true;
         }
     }
