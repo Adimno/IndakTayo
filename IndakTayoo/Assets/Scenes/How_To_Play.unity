@@ -8077,8 +8077,6 @@ MonoBehaviour:
   points: {fileID: 82160441}
   percent: {fileID: 990760082}
   correct: {fileID: 89672429}
-  wrong: {fileID: 1265535880}
-  wrongDetector: {fileID: 216105793}
 --- !u!114 &535026425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11750,8 +11748,6 @@ MonoBehaviour:
   points: {fileID: 82160441}
   percent: {fileID: 990760082}
   correct: {fileID: 89672429}
-  wrong: {fileID: 1265535880}
-  wrongDetector: {fileID: 216105793}
 --- !u!114 &697933223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22635,8 +22631,6 @@ MonoBehaviour:
   points: {fileID: 82160441}
   percent: {fileID: 990760082}
   correct: {fileID: 89672429}
-  wrong: {fileID: 1265535880}
-  wrongDetector: {fileID: 216105793}
 --- !u!114 &1458715788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28060,7 +28054,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1891853988
 Transform:
   m_ObjectHideFlags: 0
@@ -28369,8 +28363,6 @@ MonoBehaviour:
   points: {fileID: 82160441}
   percent: {fileID: 990760082}
   correct: {fileID: 89672429}
-  wrong: {fileID: 1265535880}
-  wrongDetector: {fileID: 216105793}
 --- !u!114 &1901728300
 MonoBehaviour:
   m_ObjectHideFlags: 0
