@@ -14,6 +14,7 @@ public class HTPIMUScriptCanvas : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            StopDanceHTP.ShowDanceCongrats(other);
             StopDanceHTP.StopDance(other);
             StopDancePolkabalHTP.StopDancePolkabal(other);
             StartCoroutine(ShowCongratsCanvasWithDelay());
