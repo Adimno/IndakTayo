@@ -10,9 +10,8 @@ public class StepCheckerHTP : MonoBehaviour
     public TotalPoints points;
     public TaskPercentage percent;
     public AudioSource correct;
-    public AudioSource wrong;
-    public GameObject wrongDetector;
- 
+   // public AudioSource wrong;
+   // public GameObject wrongDetector;
 
     private bool hasTriggered = false; // Flag to ensure actions run only once
 
@@ -50,18 +49,18 @@ public class StepCheckerHTP : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject == wrongDetector)
-        {
-            Debug.Log("banggaan");
-            if (Array.Exists(boolArray, element => element == false))
-            {
-                wrong.Play();
-            }
-        }
+   // private void OnTriggerEnter(Collider other)
+   // {
+   //     if (other.gameObject == wrongDetector)
+    //    {
+   //         Debug.Log("banggaan");
+   //         if (Array.Exists(boolArray, element => element == false))
+  //          {
+  //              wrong.Play();
+  //          }
+  //      }
 
-    }
+ //   }
 
     public void SetIndexTrue(int index)
     {
