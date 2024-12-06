@@ -680,7 +680,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -924,7 +923,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -1213,256 +1211,6 @@ Transform:
   - {fileID: 1864185882}
   m_Father: {fileID: 1392447635}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &15219183
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 15219184}
-  - component: {fileID: 15219187}
-  - component: {fileID: 15219186}
-  - component: {fileID: 15219185}
-  - component: {fileID: 15219188}
-  m_Layer: 0
-  m_Name: longtext
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &15219184
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 15219183}
-  m_LocalRotation: {x: -0, y: -0.000000007450579, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0079}
-  m_LocalScale: {x: 0.13172354, y: 0.12238767, z: 0.5869433}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 130499535}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.1007, y: -0.122}
-  m_SizeDelta: {x: 6.4033, y: 3.3673}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!82 &15219185
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 15219183}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &15219186
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 15219183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "In IndakTayo, your objective is to mirror each dance pose as it appears,
-    moving in sync with the traditional Jotabal steps. Align your body accurately
-    to match the poses, scoring 10 points for every step where your head and both
-    hands align perfectly. Each correctly completed step also advances your progress
-    by 1%. At the end, you\u2019ll see your total score and progress, so you can
-    track just how much of the dance you've mastered!"
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
-  m_sharedMaterial: {fileID: -9221056233183343877, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 0.4
-  m_fontSizeBase: 0.4
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -2.4943132, w: 0.5640901}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &15219187
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 15219183}
-  m_CullTransparentMesh: 1
---- !u!114 &15219188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 15219183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbdad0a87f6f4ce4485704a176c2ead1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 0.052
 --- !u!1 &16571475
 GameObject:
   m_ObjectHideFlags: 0
@@ -2564,7 +2312,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -2793,7 +2540,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -2954,7 +2700,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -3701,7 +3446,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -4492,7 +4236,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -4653,7 +4396,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -5044,7 +4786,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -6335,7 +6076,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -7589,7 +7329,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -8081,6 +7820,128 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1.3243147, z: 1.7888266}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &125418015
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 125418016}
+  - component: {fileID: 125418020}
+  - component: {fileID: 125418019}
+  - component: {fileID: 125418018}
+  - component: {fileID: 125418017}
+  m_Layer: 0
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &125418016
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125418015}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.33}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1736452848}
+  m_Father: {fileID: 1389754719}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.121, y: 0.638}
+  m_SizeDelta: {x: 1.7399, y: 1.2697}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &125418017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125418015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52a99c5573747034bad281db77024044, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Steps: {fileID: 0}
+  MaleSteps: {fileID: 0}
+  FemaleSteps: {fileID: 0}
+  stepsShow: {fileID: 0}
+  CharacterSelection: {fileID: 0}
+--- !u!114 &125418018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125418015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aaf960227867044282d921171d2d7ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  pointer: {fileID: 0}
+  sortOrder: 0
+--- !u!114 &125418019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125418015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &125418020
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125418015}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &126235101
 GameObject:
   m_ObjectHideFlags: 0
@@ -8544,11 +8405,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0.01}
   m_LocalScale: {x: 1.1901, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2105360036}
-  - {fileID: 986769491}
-  - {fileID: 15219184}
-  - {fileID: 1666396785}
+  m_Children: []
   m_Father: {fileID: 1176577433}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -8576,7 +8433,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5848eebd70d99b44082ebb42cc76a890, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 25275de901d4e4b42974727da019ba8c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9809,7 +9666,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -9970,7 +9826,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -11268,7 +11123,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -13774,7 +13628,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -14462,7 +14315,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -15279,7 +15131,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -15738,7 +15589,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -15931,7 +15781,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -16092,7 +15941,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -16253,7 +16101,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -16414,7 +16261,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -16955,7 +16801,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -17200,7 +17045,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -17586,7 +17430,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -18509,7 +18352,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -19317,7 +19159,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -20123,7 +19964,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -21119,7 +20959,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -22016,7 +21855,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -23010,7 +22848,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -23390,7 +23227,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -23583,7 +23419,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -23812,7 +23647,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -24523,7 +24357,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -25489,7 +25322,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -25650,7 +25482,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -26161,7 +25992,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -26653,7 +26483,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -27427,7 +27256,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -28526,7 +28354,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -29126,7 +28953,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -29788,6 +29614,135 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1.3243147, z: 1.7888266}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &419063670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 419063671}
+  - component: {fileID: 419063672}
+  m_Layer: 0
+  m_Name: Game Mechanics 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &419063671
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419063670}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000052241217, y: 0.010220199, z: -0.00000049782807, w: -0.9999478}
+  m_LocalPosition: {x: -0.10300011, y: -0.34300002, z: 1.2380003}
+  m_LocalScale: {x: 0.8208602, y: 0.79471, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1332126321}
+  m_Father: {fileID: 1526178229}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &419063672
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419063670}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 75c69222ba94f9e47b2de18bc8a2191f, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &419104471
 GameObject:
   m_ObjectHideFlags: 0
@@ -30915,7 +30870,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -32088,7 +32042,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -32863,7 +32816,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -33590,7 +33542,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -33998,7 +33949,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -34703,7 +34653,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -35517,7 +35466,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -35829,7 +35777,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -35990,7 +35937,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -36151,7 +36097,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -36464,7 +36409,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -37122,7 +37066,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -38919,7 +38862,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -39957,7 +39899,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -40183,7 +40124,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -40910,7 +40850,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -41139,7 +41078,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -41434,7 +41372,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -41595,7 +41532,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -41756,7 +41692,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -41917,7 +41852,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -43502,7 +43436,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -46290,7 +46223,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -47398,7 +47330,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -48294,7 +48225,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -49648,7 +49578,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -49809,7 +49738,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -50070,7 +49998,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -51813,7 +51740,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -52303,7 +52229,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -54016,7 +53941,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -54476,7 +54400,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -55194,7 +55117,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -55675,7 +55597,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -56753,7 +56674,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -57329,7 +57249,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -57490,7 +57409,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -58218,7 +58136,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -58516,7 +58433,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -59709,7 +59625,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -61897,7 +61812,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -62705,7 +62619,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -62810,6 +62723,81 @@ MonoBehaviour:
   Right: {fileID: 601807181}
   Left: {fileID: 1522938509}
   percent: {fileID: 1198934383}
+--- !u!1 &851686009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 851686010}
+  - component: {fileID: 851686012}
+  - component: {fileID: 851686011}
+  m_Layer: 0
+  m_Name: BG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &851686010
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851686009}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.01}
+  m_LocalScale: {x: 1.1901, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1332126321}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.169, y: -0.061}
+  m_SizeDelta: {x: 1.7399, y: 1.4195}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &851686011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851686009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0f521fed68942114ab8576b44dc6bbca, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &851686012
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851686009}
+  m_CullTransparentMesh: 1
 --- !u!1 &851920386
 GameObject:
   m_ObjectHideFlags: 0
@@ -63479,7 +63467,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -63844,7 +63831,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -64491,7 +64477,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -65736,7 +65721,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -67681,7 +67665,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -67842,7 +67825,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -68962,7 +68944,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -69123,7 +69104,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -69535,7 +69515,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -70423,7 +70402,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -71244,6 +71222,128 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1.3243147, z: 1.7888266}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &978964153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 978964154}
+  - component: {fileID: 978964158}
+  - component: {fileID: 978964157}
+  - component: {fileID: 978964156}
+  - component: {fileID: 978964155}
+  m_Layer: 0
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &978964154
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978964153}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.33}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1561476798}
+  m_Father: {fileID: 1568331441}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.121, y: 0.638}
+  m_SizeDelta: {x: 1.7399, y: 1.2697}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &978964155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978964153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52a99c5573747034bad281db77024044, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Steps: {fileID: 0}
+  MaleSteps: {fileID: 0}
+  FemaleSteps: {fileID: 0}
+  stepsShow: {fileID: 0}
+  CharacterSelection: {fileID: 0}
+--- !u!114 &978964156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978964153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aaf960227867044282d921171d2d7ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  pointer: {fileID: 0}
+  sortOrder: 0
+--- !u!114 &978964157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978964153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &978964158
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978964153}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &981426118
 GameObject:
   m_ObjectHideFlags: 0
@@ -71768,237 +71868,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &986769490
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 986769491}
-  - component: {fileID: 986769494}
-  - component: {fileID: 986769493}
-  - component: {fileID: 986769492}
-  m_Layer: 0
-  m_Name: Mechanics
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &986769491
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 986769490}
-  m_LocalRotation: {x: -0, y: -0.000000007450579, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.006}
-  m_LocalScale: {x: 0.16320626, y: 0.15163906, z: 0.7272263}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 130499535}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.161, y: -0.018}
-  m_SizeDelta: {x: 4.2007, y: 2.9715}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!82 &986769492
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 986769490}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &986769493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 986769490}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Game Mechanics
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
-  m_sharedMaterial: {fileID: -9221056233183343877, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 0.5
-  m_fontSizeBase: 0.5
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -2.4943132, w: 0.5640901}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &986769494
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 986769490}
-  m_CullTransparentMesh: 1
 --- !u!1 &987198752
 GameObject:
   m_ObjectHideFlags: 0
@@ -72055,7 +71924,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -74956,7 +74824,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -75766,7 +75633,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -77002,7 +76868,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -78025,7 +77890,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -79556,7 +79420,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -79800,7 +79663,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -81165,7 +81027,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -81409,7 +81270,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -82978,7 +82838,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -84521,7 +84380,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -86275,7 +86133,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -86854,7 +86711,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -87562,7 +87418,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -87957,7 +87812,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -88417,7 +88271,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -88646,7 +88499,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -88882,7 +88734,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -89227,7 +89078,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -92112,7 +91962,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -92492,7 +92341,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -93309,7 +93157,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -94195,7 +94042,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -94826,7 +94672,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -95119,7 +94964,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -95799,7 +95643,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -96903,7 +96746,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -97064,7 +96906,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -97169,6 +97010,128 @@ MonoBehaviour:
   Right: {fileID: 601807181}
   Left: {fileID: 1522938509}
   percent: {fileID: 1198934383}
+--- !u!1 &1332126320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1332126321}
+  - component: {fileID: 1332126325}
+  - component: {fileID: 1332126324}
+  - component: {fileID: 1332126323}
+  - component: {fileID: 1332126322}
+  m_Layer: 0
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1332126321
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332126320}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.33}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 851686010}
+  m_Father: {fileID: 419063671}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.121, y: 0.638}
+  m_SizeDelta: {x: 1.7399, y: 1.2697}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1332126322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332126320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52a99c5573747034bad281db77024044, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Steps: {fileID: 0}
+  MaleSteps: {fileID: 0}
+  FemaleSteps: {fileID: 0}
+  stepsShow: {fileID: 0}
+  CharacterSelection: {fileID: 0}
+--- !u!114 &1332126323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332126320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aaf960227867044282d921171d2d7ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  pointer: {fileID: 0}
+  sortOrder: 0
+--- !u!114 &1332126324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332126320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &1332126325
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332126320}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &1333609391
 GameObject:
   m_ObjectHideFlags: 0
@@ -98158,7 +98121,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -98319,7 +98281,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -98480,7 +98441,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -99038,7 +98998,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -101460,7 +101419,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -101629,6 +101587,135 @@ Transform:
   - {fileID: 64691725}
   m_Father: {fileID: 1392447635}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1389754718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1389754719}
+  - component: {fileID: 1389754720}
+  m_Layer: 0
+  m_Name: Game Mechanics 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1389754719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389754718}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000052241217, y: 0.010220199, z: -0.00000049782807, w: -0.9999478}
+  m_LocalPosition: {x: -0.10300011, y: -0.34300002, z: 1.2380003}
+  m_LocalScale: {x: 0.8208602, y: 0.79471, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 125418016}
+  m_Father: {fileID: 1526178229}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1389754720
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389754718}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: dfcb7f4e2b721b74c9a5dcc704756a8a, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1392186755
 GameObject:
   m_ObjectHideFlags: 0
@@ -102813,7 +102900,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -103194,7 +103280,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -103455,7 +103540,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -105234,7 +105318,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -105660,7 +105743,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -106041,7 +106123,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -106302,7 +106383,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -107177,7 +107257,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -108117,7 +108196,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -109128,7 +109206,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -109508,7 +109585,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -110327,7 +110403,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -111302,7 +111377,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -113279,6 +113353,9 @@ RectTransform:
   - {fileID: 1179052204}
   - {fileID: 1604394338}
   - {fileID: 2064570231}
+  - {fileID: 1389754719}
+  - {fileID: 1568331441}
+  - {fileID: 419063671}
   - {fileID: 1356376623}
   - {fileID: 825903190}
   m_Father: {fileID: 1730636476}
@@ -114401,7 +114478,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -116134,6 +116210,81 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1560336888}
   m_Mesh: {fileID: 4300000, guid: 8701e9636134d8a4eb1c259af50e5e9c, type: 2}
+--- !u!1 &1561476797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1561476798}
+  - component: {fileID: 1561476800}
+  - component: {fileID: 1561476799}
+  m_Layer: 0
+  m_Name: BG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1561476798
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561476797}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.01}
+  m_LocalScale: {x: 1.1901, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 978964154}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.169, y: -0.061}
+  m_SizeDelta: {x: 1.7399, y: 1.4195}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1561476799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561476797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 246c51f574a7ebb4fa242c97aa1dd75d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1561476800
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561476797}
+  m_CullTransparentMesh: 1
 --- !u!1 &1561887796
 GameObject:
   m_ObjectHideFlags: 0
@@ -116326,7 +116477,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -116832,6 +116982,135 @@ Transform:
   - {fileID: 1817808310}
   m_Father: {fileID: 1392447635}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1568331440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1568331441}
+  - component: {fileID: 1568331442}
+  m_Layer: 0
+  m_Name: Game Mechanics 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1568331441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568331440}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000052241217, y: 0.010220199, z: -0.00000049782807, w: -0.9999478}
+  m_LocalPosition: {x: -0.10300011, y: -0.34300002, z: 1.2380003}
+  m_LocalScale: {x: 0.8208602, y: 0.79471, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 978964154}
+  m_Father: {fileID: 1526178229}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1568331442
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568331440}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 54d496d16a209c249aaa815247ce3ac7, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1568775642
 GameObject:
   m_ObjectHideFlags: 0
@@ -117052,7 +117331,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -119865,7 +120143,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -120058,7 +120335,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -120219,7 +120495,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -120380,7 +120655,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -121091,7 +121365,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -122859,7 +123132,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -123163,7 +123435,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -123460,7 +123731,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -124104,138 +124374,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1.3243147, z: 1.7888266}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &1666396784
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1666396785}
-  - component: {fileID: 1666396788}
-  - component: {fileID: 1666396787}
-  - component: {fileID: 1666396786}
-  m_Layer: 0
-  m_Name: start
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1666396785
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1666396784}
-  m_LocalRotation: {x: -0, y: -0.000000007450579, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.01}
-  m_LocalScale: {x: 0.22442293, y: 0.208517, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 130499535}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.015, y: -0.34}
-  m_SizeDelta: {x: 1.7399, y: 1.4195}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1666396786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1666396784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.8392157, g: 0.7490196, b: 0.7490196, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1666396787}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SceneLoaderMainMenu, Assembly-CSharp
-        m_MethodName: MoveToMain_Menu
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1666396787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1666396784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2533a78974245b54c8fdb8c2c32a15f4, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1666396788
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1666396784}
-  m_CullTransparentMesh: 1
 --- !u!1 &1667497737
 GameObject:
   m_ObjectHideFlags: 0
@@ -124431,7 +124569,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -125552,7 +125689,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -125952,7 +126088,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -126599,7 +126734,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -126828,7 +126962,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -127057,7 +127190,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -128844,7 +128976,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -129091,7 +129222,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WelcomeCanvas: {fileID: 1179052203}
-  GameMechanicsCanvas: {fileID: 2064570230}
+  GameMechanicsCanvas1: {fileID: 2064570230}
+  GameMechanicsCanvas2: {fileID: 1389754718}
+  GameMechanicsCanvas3: {fileID: 1568331440}
+  GameMechanicsCanvas4: {fileID: 419063670}
   SelectDifficultyCanvas: {fileID: 1356376622}
   CharacterSelectionCanvas: {fileID: 825903189}
 --- !u!1 &1734364803
@@ -129150,7 +129284,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -129543,6 +129676,81 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1736074278}
   m_Mesh: {fileID: 4300000, guid: eaa2ae42a97c8be4899132e243175317, type: 2}
+--- !u!1 &1736452847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1736452848}
+  - component: {fileID: 1736452850}
+  - component: {fileID: 1736452849}
+  m_Layer: 0
+  m_Name: BG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1736452848
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736452847}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.01}
+  m_LocalScale: {x: 1.1901, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 125418016}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.169, y: -0.061}
+  m_SizeDelta: {x: 1.7399, y: 1.4195}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1736452849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736452847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 25c6499bf5587c8439a12ed57124cfd6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1736452850
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736452847}
+  m_CullTransparentMesh: 1
 --- !u!114 &1737261940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130389,7 +130597,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -131635,7 +131842,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -132449,7 +132655,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -132610,7 +132815,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -132908,7 +133112,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -133237,7 +133440,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -133398,7 +133600,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -133659,7 +133860,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -134444,7 +134644,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -135483,7 +135682,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -136199,7 +136397,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -137234,7 +137431,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -137395,7 +137591,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -139564,7 +139759,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -140413,7 +140607,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -141023,7 +141216,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -143488,7 +143680,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -143833,7 +144024,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -144094,7 +144284,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -144370,7 +144559,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -145283,7 +145471,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -145680,7 +145867,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -146509,7 +146695,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -146969,7 +147154,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -147130,7 +147314,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -148079,7 +148262,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -148803,7 +148985,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -149047,7 +149228,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -149898,7 +150078,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -150143,7 +150322,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -150304,7 +150482,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -151443,7 +151620,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -151604,7 +151780,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -152472,7 +152647,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -153720,7 +153894,7 @@ GameObject:
   - component: {fileID: 2064570231}
   - component: {fileID: 2064570232}
   m_Layer: 0
-  m_Name: Game Mechanics
+  m_Name: Game Mechanics 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153752,7 +153926,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 80b89a75e3fdd014aa96559655ba898c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 43168ecd0896b404f9cda7e19517685b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -153894,7 +154068,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -154733,7 +154906,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -154894,7 +155066,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -156248,7 +156419,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -157381,81 +157551,6 @@ Transform:
   - {fileID: 1125008932}
   m_Father: {fileID: 1392447635}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2105360035
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2105360036}
-  - component: {fileID: 2105360038}
-  - component: {fileID: 2105360037}
-  m_Layer: 0
-  m_Name: logo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2105360036
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2105360035}
-  m_LocalRotation: {x: -0, y: -0.000000007450579, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.001}
-  m_LocalScale: {x: 0.88490057, y: 0.52573943, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 130499535}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.061, y: 0.381}
-  m_SizeDelta: {x: 1.7399, y: 1.4195}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2105360037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2105360035}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b939423e6235b7b4db85f64ec2a2b976, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &2105360038
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2105360035}
-  m_CullTransparentMesh: 1
 --- !u!1 &2106086336
 GameObject:
   m_ObjectHideFlags: 0
@@ -157744,7 +157839,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -158478,7 +158572,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 0}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
@@ -159040,7 +159133,6 @@ MonoBehaviour:
   boolArray: 000000
   checker: {fileID: 2120974443}
   points: {fileID: 160581681}
-  percent: {fileID: 1198934383}
   correct: {fileID: 1321362003}
   wrongDetector: {fileID: 1242923150}
   counter: {fileID: 1239562077}
