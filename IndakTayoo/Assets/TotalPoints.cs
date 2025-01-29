@@ -7,6 +7,7 @@ public class TotalPoints : MonoBehaviour
 {
     public TextMeshProUGUI textMeshPro;
     private int points = 0;
+    public int pointsMultiplier = 1; // Default multiplier is 1x
 
     void Update()
     {
@@ -23,7 +24,7 @@ public class TotalPoints : MonoBehaviour
     // Function to increment points by a specified value
     public void IncrementPoints(int incrementValue)
     {
-        points += incrementValue;
+        points += incrementValue * pointsMultiplier; // Apply multiplier
     }
 
     // Function to decrement points by a specified value

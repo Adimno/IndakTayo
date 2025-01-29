@@ -12,6 +12,9 @@ public class SelectDifficulty : MonoBehaviour
     public GameObject MusicHard;
     public static float savedSpeed;
     public static string difficultyText;
+    // power ups
+    public powerUpsShow powerUpsShow;
+    public AudioSource musicNormal;
 
     // Getter for savedSpeed
     public static float GetSavedSpeed()
@@ -50,7 +53,26 @@ public class SelectDifficulty : MonoBehaviour
         speedController.speed = 1.5f;
         savedSpeed = speedController.speed;
         CharacterSelectionCanvas.SetActive(true);
-        MusicHard.SetActive(true);
+        // change to music average
+        MusicAverage.SetActive(true);
         SelectDifficultyCanvas.SetActive(false);
+        powerUpsShow.PowerUps.SetActive(true);
+
+
+
+        if (musicNormal != null)
+        {
+            // Set the pitch to 1.5
+            musicNormal.pitch = 1.5f;
+            musicNormal.volume = 0.6f; // Adjust volume for higher pitch
+
+            // Play the audio
+            musicNormal.Play();
+        }
+        else
+        {
+            Debug.LogWarning("No AudioSource found on this GameObject.");
+        }
+
     }
 }
