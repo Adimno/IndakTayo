@@ -20,6 +20,7 @@ public class PlayButton : MonoBehaviour
     bool canPressButton = true;
     public float delayDuration = 1f; // Adjust this value as needed
     public TextMeshProUGUI textComponent;
+    public GameObject checkIcon;
 
     // public GameObject HintDestroy;
 
@@ -32,6 +33,7 @@ public class PlayButton : MonoBehaviour
 
         // Subscribe to the loopPointReached event
         videoPlayer.loopPointReached += OnVideoEnd;
+        checkIcon.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -94,8 +96,10 @@ public class PlayButton : MonoBehaviour
         videoCanvas.gameObject.SetActive(false);
         buttonText.text = "START";
         textComponent.color = Color.green;
+        checkIcon.SetActive(true);
 
-        
+
+
     }
 
         // Unsubscribe from the loopPointReached event when the script is destroyed
