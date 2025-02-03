@@ -9,9 +9,15 @@ public class HTPPlayerCollider : MonoBehaviour
     public GameObject DestroyCollider;
 
     public TextMeshProUGUI textComponent;
+    public GameObject MoveDanceArea;
     public GameObject DanceSteps;
     public StepShowHTP Dance;
 
+     void Start()
+      {
+        MoveDanceArea.SetActive(false);
+       
+      }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -21,6 +27,7 @@ public class HTPPlayerCollider : MonoBehaviour
 
             Destroy(DestroyCollider);
 
+            MoveDanceArea.SetActive(true);
             // Change text color to green
             if (textComponent != null)
             {
