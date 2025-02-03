@@ -24,8 +24,8 @@ public class slowDownEffect : MonoBehaviour
     private IEnumerator SlowDownTemporarily()
     {
         // Slow down speed and lower pitch
-        speedController.speed = 0.5f;
-      MusicHardEffect.musicNormal.pitch = 0.5f;
+        speedController.speed = 1f;
+      MusicHardEffect.musicNormal.pitch = 1f;
        // ObstacleSounds.Play();
 
         // Wait for 10 seconds
