@@ -98,19 +98,21 @@ public class CanvasController : MonoBehaviour
     private IEnumerator SwitchCanvasesWithDelay()
     {
 
-        yield return new WaitForSeconds(19f);
-        ShowGameMechanicsCanvas1();
+         yield return new WaitForSeconds(19f);
+         ShowGameMechanicsCanvas1();
 
-        yield return new WaitForSeconds(16f);
-        ShowGameMechanicsCanvas2();
+          yield return new WaitForSeconds(16f);
+         ShowGameMechanicsCanvas2();
 
-        yield return new WaitForSeconds(9f);
-        ShowGameMechanicsCanvas3();
+         yield return new WaitForSeconds(9f);
+         ShowGameMechanicsCanvas3();
 
-        yield return new WaitForSeconds(5.5f);
-        ShowGameMechanicsCanvas4();
+         yield return new WaitForSeconds(5.5f);
+         ShowGameMechanicsCanvas4();
 
         yield return new WaitForSeconds(6f);
         ShowSelectDifficultyCanvas();
     }
+
+
 }
