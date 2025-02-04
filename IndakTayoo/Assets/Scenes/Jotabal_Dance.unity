@@ -28165,7 +28165,7 @@ MonoBehaviour:
   MusicEasy: {fileID: 402388792}
   MusicAverage: {fileID: 1111712170}
   MusicHard: {fileID: 1254195184}
-  PowerUps: {fileID: 0}
+  PowerUps: {fileID: 151359902}
   musicNormal: {fileID: 1111712172}
 --- !u!114 &399907635
 MonoBehaviour:
@@ -128508,7 +128508,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1673208174
 Transform:
   m_ObjectHideFlags: 0
