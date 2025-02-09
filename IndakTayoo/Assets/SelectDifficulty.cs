@@ -13,14 +13,20 @@ public class SelectDifficulty : MonoBehaviour
     public static float savedSpeed;
     public static string difficultyText;
     // power ups
-    public GameObject PowerUps;
+    public GameObject[] PowerUps;
     public AudioSource musicNormal;
 
     // Getter for savedSpeed
 
      void Start()
     {
-        PowerUps.SetActive(false);
+         foreach (GameObject powerUp in PowerUps)
+         {
+        if (powerUp != null)
+                 {
+            powerUp.SetActive(false);
+                 }
+         }
     }
     public static float GetSavedSpeed()
     {
@@ -61,7 +67,15 @@ public class SelectDifficulty : MonoBehaviour
         // change to music average
         MusicAverage.SetActive(true);
         SelectDifficultyCanvas.SetActive(false);
-        PowerUps.SetActive(true);
+
+             foreach (GameObject powerUp in PowerUps)
+        {
+            if (powerUp != null)
+            {
+                powerUp.SetActive(true);
+            }
+        }
+
 
 
 
