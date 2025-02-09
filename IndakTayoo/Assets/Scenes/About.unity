@@ -866,7 +866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9607843, g: 0.28797606, b: 0, a: 1}
+  m_Color: {r: 0, g: 0.047058824, b: 0.77254903, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4269,7 +4269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9607843, g: 0.28627452, b: 0, a: 1}
+  m_Color: {r: 0, g: 0.047058824, b: 0.77254903, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9156,6 +9156,7 @@ MonoBehaviour:
   videoPlayer: {fileID: 1245897073}
   delayDuration: 1
   textComponent: {fileID: 0}
+  checkIcon: {fileID: 0}
 --- !u!54 &1029838508
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14568,6 +14569,7 @@ MonoBehaviour:
   videoPlayer: {fileID: 1988027498}
   delayDuration: 1
   textComponent: {fileID: 0}
+  checkIcon: {fileID: 0}
 --- !u!54 &1731224935
 Rigidbody:
   m_ObjectHideFlags: 0
