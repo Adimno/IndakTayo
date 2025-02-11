@@ -26,7 +26,7 @@ public class slowDownEffect : MonoBehaviour
         // Slow down speed and lower pitch
         speedController.speed = 1f;
       MusicHardEffect.musicNormal.pitch = 1f;
-       // ObstacleSounds.Play();
+        PowerUpSound.Play();
 
         // Wait for 10 seconds
         yield return new WaitForSeconds(10f);

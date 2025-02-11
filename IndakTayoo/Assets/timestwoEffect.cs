@@ -26,7 +26,7 @@ public class timestwoEffect : MonoBehaviour
 
         // Activate x2 Points effect globally
         totalPoints.pointsMultiplier = 2;
-
+        PowerUpSound.Play();
         // Wait for 10 seconds
         yield return new WaitForSeconds(10f);
 
