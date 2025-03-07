@@ -14,7 +14,7 @@ public class RemainingValue : MonoBehaviour
     {
         int attemptsToPass = PlayerPrefs.GetInt("attempts");
         int remaining = 3 - attemptsToPass;
-        int percentValue = percent.TaskPercentageValue;
+        float percentValue = percent.TaskPercentageValue;
 
         if (remaining < 0)
         {

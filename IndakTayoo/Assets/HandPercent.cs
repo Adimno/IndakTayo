@@ -28,11 +28,11 @@ public class HandPercent : MonoBehaviour
     {
         if (taskPercentage != null)
         {
-            // Display the task percentage in the TextMeshPro field
-            int currentPercentage = taskPercentage.TaskPercentageValue;
-            textMeshPro.text = currentPercentage + "%";
+            // Get the current percentage from TaskPercentage
+            float currentPercentage = taskPercentage.TaskPercentageValue;
 
-
+            // Display only the whole number (without decimals) using Mathf.FloorToInt() or Mathf.RoundToInt()
+            textMeshPro.text = Mathf.FloorToInt(currentPercentage) + "%";  // Using Floor to remove decimal places
         }
     }
 }

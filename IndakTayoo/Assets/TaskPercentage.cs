@@ -4,26 +4,25 @@ using TMPro;
 public class TaskPercentage : MonoBehaviour
 {
     public TextMeshProUGUI textMeshPro;
-    private int taskPercentage = 0;
+    private float taskPercentage = 0;
 
     void Update()
     {
-        textMeshPro.text = taskPercentage + "%";
+        // Display the taskPercentage as a whole number (integer)
+        textMeshPro.text = Mathf.FloorToInt(taskPercentage) + "%";  // Floors the value to nearest lower integer
     }
 
-    public int TaskPercentageValue
+    public float TaskPercentageValue
     {
         get { return taskPercentage; }
     }
 
-    public void IncrementTaskPercentage(int incrementValue)
+    public void IncrementTaskPercentage(float incrementValue)
     {
         taskPercentage += incrementValue;
         if (taskPercentage >= 100)
         {
-            taskPercentage = 100; 
+            taskPercentage = 100;
         }
     }
-
-
 }
