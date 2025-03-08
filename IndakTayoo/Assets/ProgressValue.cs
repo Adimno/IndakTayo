@@ -9,12 +9,12 @@ public class ProgressValue : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     void Update()
     {
         // Update the TextMeshPro text with the taskPercentage value
-        progress.text = task.TaskPercentageValue + "/100";
+        progress.text = Mathf.FloorToInt(task.TaskPercentageValue) + "/100";
     }
 }
