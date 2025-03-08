@@ -9,6 +9,8 @@ public class ShowResults : MonoBehaviour
     public GameObject ResultsCanvas;
     public AudioSource Congratulations;
 
+    public StopWatch stopWatch;
+
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == MaleWall || other.gameObject == FemaleWall)
@@ -24,6 +26,7 @@ public class ShowResults : MonoBehaviour
             {
                 Congratulations.Play();
             }
+        stopWatch.StopEverything();
         ResultsCanvas.SetActive(true);         // Show the ResultsCanvas
     }
 }

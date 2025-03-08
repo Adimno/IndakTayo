@@ -11430,6 +11430,7 @@ MonoBehaviour:
   FemaleWall: {fileID: 1513914901}
   ResultsCanvas: {fileID: 1604394337}
   Congratulations: {fileID: 167017552}
+  stopWatch: {fileID: 1402152327}
 --- !u!54 &167017547
 Rigidbody:
   m_ObjectHideFlags: 0
