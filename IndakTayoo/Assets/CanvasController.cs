@@ -12,10 +12,12 @@ public class CanvasController : MonoBehaviour
     public GameObject SelectDifficultyCanvas;
     public GameObject CharacterSelectionCanvas;
 
+      private Coroutine switchCoroutine;
     void Start()
     {
         ShowWelcomeCanvas();
-        StartCoroutine(SwitchCanvasesWithDelay());
+    switchCoroutine = StartCoroutine(SwitchCanvasesWithDelay());
+
     }
 
     private void ShowWelcomeCanvas()
@@ -94,6 +96,17 @@ public class CanvasController : MonoBehaviour
         SelectDifficultyCanvas.SetActive(false);
         CharacterSelectionCanvas.SetActive(true);
     }
+
+    
+       public void StopAutoSwitching()
+    {
+        if (switchCoroutine != null)
+        {
+            StopCoroutine(switchCoroutine);
+            switchCoroutine = null;
+        }
+    }
+
 
     private IEnumerator SwitchCanvasesWithDelay()
     {
