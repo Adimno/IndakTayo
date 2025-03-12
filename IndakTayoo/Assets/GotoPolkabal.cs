@@ -7,7 +7,7 @@ using TMPro;
 public class GotoPolkabal : MonoBehaviour
 {
     public string stageName;
-
+    public string music;
     public GameObject loadingScreen;
     public Slider loadingSlider;
     public TextMeshProUGUI progressText;
@@ -18,6 +18,8 @@ public class GotoPolkabal : MonoBehaviour
     public void MoveToPolkabal_Dance()
     {
         PlayerPrefs.SetString("stage", stageName);
+        PlayerPrefs.Save();
+        PlayerPrefs.SetString("music", music);
         PlayerPrefs.Save();
         StartCoroutine(LoadScene("Polkabal_Dance"));
     }

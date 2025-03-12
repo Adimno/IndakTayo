@@ -6752,6 +6752,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageName: Concert
+  music: Polkabal
   loadingScreen: {fileID: 1737854160}
   loadingSlider: {fileID: 1038571820}
   progressText: {fileID: 2004882335}
@@ -10116,6 +10117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageName: Village
+  music: Polkabal
   loadingScreen: {fileID: 1737854160}
   loadingSlider: {fileID: 1038571820}
   progressText: {fileID: 2004882335}
@@ -10268,6 +10270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageName: Ballroom
+  music: Polkabal
   loadingScreen: {fileID: 1737854160}
   loadingSlider: {fileID: 1038571820}
   progressText: {fileID: 2004882335}
@@ -10830,6 +10833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageName: Concert
+  music: Jotabal
   loadingScreen: {fileID: 1737854160}
   loadingSlider: {fileID: 1038571820}
   progressText: {fileID: 2004882335}
@@ -11136,6 +11140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageName: Ballroom
+  music: Jotabal
   loadingScreen: {fileID: 1737854160}
   loadingSlider: {fileID: 1038571820}
   progressText: {fileID: 2004882335}
@@ -13286,6 +13291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageName: Village
+  music: Jotabal
   loadingScreen: {fileID: 1737854160}
   loadingSlider: {fileID: 1038571820}
   progressText: {fileID: 2004882335}

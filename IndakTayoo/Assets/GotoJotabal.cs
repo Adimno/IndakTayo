@@ -7,7 +7,7 @@ using TMPro;
 public class GotoJotabal : MonoBehaviour
 {
     public string stageName;
-
+    public string music;
     public GameObject loadingScreen;
     public Slider loadingSlider;
     public TextMeshProUGUI progressText;
@@ -18,6 +18,8 @@ public class GotoJotabal : MonoBehaviour
     public void MoveToJotabal_Dance()
     {
         PlayerPrefs.SetString("stage", stageName);
+        PlayerPrefs.Save();
+        PlayerPrefs.SetString("music", music);
         PlayerPrefs.Save();
         StartCoroutine(LoadScene("Jotabal_Dance"));
     }
