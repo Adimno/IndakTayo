@@ -15,7 +15,7 @@ public class DifficultyLogic : MonoBehaviour
         int isHard = PlayerPrefs.GetInt("isHard", 0);       // Correct key for Hard difficulty
 
         // Set buttons' interactability based on saved difficulty states
-        Average.interactable = (isAverage == 1);
-        Hard.interactable = (isHard == 1);
+        Average.interactable = (isAverage == 0); //optional: changed to zero to be set available
+        Hard.interactable = (isHard == 0); //optional: changed to zero to be set available
     }
 }
