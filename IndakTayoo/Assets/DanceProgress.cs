@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class DanceProgress : MonoBehaviour
 {
-    public GameObject Head;
-    public GameObject Right;
-    public GameObject Left;
+    public GameObject Player;
     public TaskPercentage percent;
     private string music;
 
@@ -21,8 +19,9 @@ public class DanceProgress : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         // Ensure that we only process this once, and if the other object is one of the designated parts (Head, Right, Left)
-        if (!hasCollided && (other.gameObject == Head || other.gameObject == Right || other.gameObject == Left))
+        if (!hasCollided && (other.gameObject == Player))
         {
+
             Debug.Log("MALI");
             if (music == "Jotabal")
             {
